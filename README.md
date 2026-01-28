@@ -28,7 +28,8 @@ I have added links in one place as of now. I will categorise it later for better
 23. Protect AI's OSS portfolio includes tools aimed at improving the security of AI/ML software: https://github.com/protectai
     1. LLM Guard: https://github.com/protectai/llm-guard 
     2. AI/ML exploits: https://github.com/protectai/ai-exploits 
-    3. Model scan: https://github.com/protectai/modelscan 
+    3. Model scan: https://github.com/protectai/modelscan
+    4. promptfoo (LLM red teaming + modelaudit for ML model scanning): https://github.com/promptfoo/promptfoo 
     4. rebuff: https://github.com/protectai/rebuff 
     5. NB Defense: https://github.com/protectai/nbdefense 
 24. Safeguarding LLm with llm-guard: https://medium.com/@dataenthusiast.io/language-models-at-risk-safeguarding-ai-with-llm-guard-11a3e7923af5
