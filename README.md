@@ -98,7 +98,8 @@ Practice your skills with these vulnerable applications and challenges.
 8. [Huntr.com](https://huntr.com/) - World’s first bug bounty platform for AI/ML.
 
 ## GenAI Security Breaches & Incidents
-*Coming soon.*
+1. [Check Point Researchers Expose Critical Claude Code Flaws](https://blog.checkpoint.com/research/check-point-researchers-expose-critical-claude-code-flaws/)
+CVE-2025-59536 and CVE-2026-21852: Enabling Remote Command Execution and API Key Theft
 
 ## Contributors
 *   [Sanjeev Jaiswal](https://github.com/jassics)
