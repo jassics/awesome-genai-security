@@ -37,6 +37,8 @@ Important papers, standards, and checklists from organizations like OWASP, NIST,
 4. [Hands-On Large Language Models](https://www.flipkart.com/hands-on-large-language-models-understanding-generation/p/itm07bb6ede2a7b0)
 5. [Nexus by Yuval Noah Harari](https://www.flipkart.com/nexus/p/itm41a4d83d2cf64)
 6. [The Developer's Playbook for Large Language Model Security: Building Secure AI Applications by Steve Wilson](https://www.flipkart.com/developer-s-playbook-large-language-model-security/p/itm2633a103cffb8)
+7. [10 Best AI Security Books (Practical DevSecOps)](https://www.practical-devsecops.com/best-ai-security-books/)
+8. [AI Security E-book 101 (Practical DevSecOps, PDF)](https://www.practical-devsecops.com/wp-content/uploads/2025/11/AI-Security-E-book-101.pdf)
 
 ## Videos
 1. [Intro to LLM Security - WhyLabs](https://www.youtube.com/watch?v=dj1H4g4YSlU)
@@ -49,6 +51,9 @@ Articles and guides covering LLM, RAG, and general GenAI security.
 3. [A quick check on the AI Threat Model](https://plot4.ai/assessments/quick-check)
 4. [Security Incident Response using LLM](https://engineering.mercari.com/en/blog/entry/20241206-streamlining-security-incident-response-with-automation-and-large-language-models/)
 5. [OWASP: CheatSheet – A Practical Guide for Securely Using Third-Party MCP Servers 1.0](https://genai.owasp.org/resource/cheatsheet-a-practical-guide-for-securely-using-third-party-mcp-servers-1-0/)
+6. [AI Security Interview Questions (Practical DevSecOps)](https://www.practical-devsecops.com/ai-security-interview-questions/)
+7. [Emerging AI Security Roles (Practical DevSecOps)](https://www.practical-devsecops.com/emerging-ai-security-roles/)
+8. [AI Security Engineer Roadmap (Practical DevSecOps)](https://www.practical-devsecops.com/ai-security-engineer-roadmap/)
 
 ### RAG Security
 1. [Riding the RAG Trail: Access, Permissions and Context](https://www.lasso.security/blog/riding-the-rag-trail-access-permissions-and-context)
@@ -70,6 +75,7 @@ Articles and guides covering LLM, RAG, and general GenAI security.
 5. [Coursera: Generative AI for Cybersecurity Professionals (IBM)](https://www.coursera.org/specializations/generative-ai-for-cybersecurity-professionals)
 6. [Coursera: AI for Cybersecurity (JHU)](https://www.coursera.org/specializations/ai-for-cybersecurity)
 7. [AttackIQ: The foundation of AI Security](https://www.academy.attackiq.com/courses/foundations-of-ai-security)
+8. [Certified AI Security Professional (CAISP) – Practical DevSecOps](https://www.practical-devsecops.com/certified-ai-security-professional/) – Securing AI systems, models, and pipelines against adversarial threats, LLM vulnerabilities, AI supply chain risks, data poisoning, and AI-specific security frameworks. Hands-on, practitioner-level skills.
 
 ## Tools of Trade
 Tools for defending, scanning, and auditing GenAI systems.
