@@ -6,11 +6,11 @@ A curated list of links, references, books, videos, tutorials (Free or Paid), Ex
 ## Table of Contents
 
 - [GenAI Security Papers & Standards](#genai-security-papers--standards)
-- [AI Security Books](#books)
-- [AI Security Videos](#videos)
+- [AI Security Books](#ai-security-books)
+- [AI Security Videos](#ai-security-videos)
 - [Online Tutorials / Blogs / Presentations](#online-tutorials--blogs--presentations)
 - [Online Courses (Paid/Free)](#online-courses-paidfree)
-- [AI Security Certifications](#certifications)
+- [AI Security Certifications](#ai-security-certifications)
 - [Tools of Trade](#tools-of-trade)
 - [Security Practices and CTFs](#security-practices-and-ctfs)
 - [GenAI Security Breaches & Incidents](#genai-security-breaches--incidents)
