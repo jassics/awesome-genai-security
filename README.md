@@ -76,10 +76,9 @@ Articles and guides covering LLM, RAG, and general GenAI security.
 5. [Coursera: Generative AI for Cybersecurity Professionals (IBM)](https://www.coursera.org/specializations/generative-ai-for-cybersecurity-professionals)
 6. [Coursera: AI for Cybersecurity (JHU)](https://www.coursera.org/specializations/ai-for-cybersecurity)
 7. [AttackIQ: The foundation of AI Security](https://www.academy.attackiq.com/courses/foundations-of-ai-security)
-8. [Certified AI Security Professional (CAISP) – Practical DevSecOps](https://www.practical-devsecops.com/certified-ai-security-professional/) – Securing AI systems, models, and pipelines against adversarial threats, LLM vulnerabilities, AI supply chain risks, data poisoning, and AI-specific security frameworks. Hands-on, practitioner-level skills.
 
 ## AI Security Certifications
-1. [Certified AI Security Professional (CAISP) by Practical DevSecOps](https://www.practical-devsecops.com/certified-ai-security-professional/)
+1. [Certified AI Security Professional (CAISP) by Practical DevSecOps](https://www.practical-devsecops.com/certified-ai-security-professional/) – Securing AI systems, models, and pipelines against adversarial threats, LLM vulnerabilities, AI supply chain risks, data poisoning, and AI-specific security frameworks. Hands-on, practitioner-level skills.
 
 ## Tools of Trade
 Tools for defending, scanning, and auditing GenAI systems.
