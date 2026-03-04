@@ -6,10 +6,11 @@ A curated list of links, references, books, videos, tutorials (Free or Paid), Ex
 ## Table of Contents
 
 - [GenAI Security Papers & Standards](#genai-security-papers--standards)
-- [Books](#books)
-- [Videos](#videos)
+- [AI Security Books](#books)
+- [AI Security Videos](#videos)
 - [Online Tutorials / Blogs / Presentations](#online-tutorials--blogs--presentations)
 - [Online Courses (Paid/Free)](#online-courses-paidfree)
+- [AI Security Certifications](#certifications)
 - [Tools of Trade](#tools-of-trade)
 - [Security Practices and CTFs](#security-practices-and-ctfs)
 - [GenAI Security Breaches & Incidents](#genai-security-breaches--incidents)
@@ -30,7 +31,7 @@ Important papers, standards, and checklists from organizations like OWASP, NIST,
 8. [Microsoft Threat Modeling AI/ML](https://learn.microsoft.com/en-us/security/engineering/threat-modeling-aiml)
 9. [OWASP GenAI Security Project](https://genai.owasp.org/)
 
-## Books
+## AI Security Books
 1. [AI Value Creators](https://www.flipkart.com/ai-value-creators/p/itm84255392ef02e)
 2. [AI Engineering by Chip Huyen](https://www.flipkart.com/ai-engineering-building-applications-foundation-models-full-colour-edition-model-handbook-practical-guide/p/itm0b5326225ef19)
 3. [Designing Machine Learning Systems](https://www.flipkart.com/designing-machine-learning-systems/p/itm075f3337b432e)
@@ -38,7 +39,7 @@ Important papers, standards, and checklists from organizations like OWASP, NIST,
 5. [Nexus by Yuval Noah Harari](https://www.flipkart.com/nexus/p/itm41a4d83d2cf64)
 6. [The Developer's Playbook for Large Language Model Security: Building Secure AI Applications by Steve Wilson](https://www.flipkart.com/developer-s-playbook-large-language-model-security/p/itm2633a103cffb8)
 
-## Videos
+## AI Security Videos
 1. [Intro to LLM Security - WhyLabs](https://www.youtube.com/watch?v=dj1H4g4YSlU)
 
 ## Online Tutorials / Blogs / Presentations
@@ -70,6 +71,9 @@ Articles and guides covering LLM, RAG, and general GenAI security.
 5. [Coursera: Generative AI for Cybersecurity Professionals (IBM)](https://www.coursera.org/specializations/generative-ai-for-cybersecurity-professionals)
 6. [Coursera: AI for Cybersecurity (JHU)](https://www.coursera.org/specializations/ai-for-cybersecurity)
 7. [AttackIQ: The foundation of AI Security](https://www.academy.attackiq.com/courses/foundations-of-ai-security)
+
+## AI Security Certifications
+1. [Certified AI Security Professional (CAISP) by Practical DevSecOps](https://www.practical-devsecops.com/certified-ai-security-professional/)
 
 ## Tools of Trade
 Tools for defending, scanning, and auditing GenAI systems.
