@@ -1,10 +1,7 @@
 # Awesome GenAI Security
 A curated list of links, references, books, videos, tutorials (Free or Paid), Exploit, CTFs, Hacking Practices, etc., which are related to GenAI, LLM, RAG, MCP, Agents, and Agentic AT security.
 
-![GenAI security banner](awesome-genai-security-banner.png)
-
 ## Table of Contents
-
 - [GenAI Security Papers & Standards](#genai-security-papers--standards)
 - [AI Security Books](#ai-security-books)
 - [AI Security Videos](#ai-security-videos)
@@ -15,8 +12,8 @@ A curated list of links, references, books, videos, tutorials (Free or Paid), Ex
 - [Security Practices and CTFs](#security-practices-and-ctfs)
 - [GenAI Security Breaches & Incidents](#genai-security-breaches--incidents)
 - [Contributors](#contributors)
-
 ---
+![GenAI security banner](awesome-genai-security-banner.png)
 
 ## GenAI Security Papers & Standards
 Important papers, standards, and checklists from organizations like OWASP, NIST, and others.
