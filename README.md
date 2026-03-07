@@ -106,9 +106,9 @@ Practice your skills with these vulnerable applications and challenges.
 7. [OWASP WrongSecrets LLM exercise](https://wrongsecrets.herokuapp.com/challenge/32)
 8. [Huntr.com](https://huntr.com/) - World’s first bug bounty platform for AI/ML.
 
-## GenAI Security Breaches & Incidents
-1. [Check Point Researchers Expose Critical Claude Code Flaws](https://blog.checkpoint.com/research/check-point-researchers-expose-critical-claude-code-flaws/)
-CVE-2025-59536 and CVE-2026-21852: Enabling Remote Command Execution and API Key Theft
+## GenAI Security Attacks, Breaches & Incidents
+1. [Check Point Researchers Expose Critical Claude Code Flaws](https://blog.checkpoint.com/research/check-point-researchers-expose-critical-claude-code-flaws/) - CVE-2025-59536 and CVE-2026-21852: Enabling Remote Command Execution and API Key Theft
+2. [Anthropic: Chinese AI Firms Created 24,000 Fraudulent Accounts For 'Distillation Attacks](https://in.mashable.com/tech/106230/anthropic-chinese-ai-firms-created-24000-fraudulent-accounts-for-distillation-attacks)
 
 ## Contributors
 *   [Sanjeev Jaiswal](https://github.com/jassics)
