@@ -106,6 +106,10 @@ Practice your skills with these vulnerable applications and challenges.
 ## GenAI Security Attacks, Breaches & Incidents
 1. [Check Point Researchers Expose Critical Claude Code Flaws](https://blog.checkpoint.com/research/check-point-researchers-expose-critical-claude-code-flaws/) - CVE-2025-59536 and CVE-2026-21852: Enabling Remote Command Execution and API Key Theft
 2. [Anthropic: Chinese AI Firms Created 24,000 Fraudulent Accounts For 'Distillation Attacks](https://in.mashable.com/tech/106230/anthropic-chinese-ai-firms-created-24000-fraudulent-accounts-for-distillation-attacks)
+3. [LiteLLM on PyPI Was Compromised, What the Attack Changed and What Defenders Should Do Now](https://www.penligent.ai/hackinglabs/litellm-on-pypi-was-compromised-what-the-attack-changed-and-what-defenders-should-do-now/)
+4. [The Day Chevrolet’s AI Chatbot Tried to Sell a $70,000 SUV for $1](https://medium.com/@celestineriza/the-day-chevrolets-ai-chatbot-tried-to-sell-a-70-000-suv-for-1-29f4a1e954d9)
+5. [Samsung bans use of generative AI tools like ChatGPT after April internal data leak](https://techcrunch.com/2023/05/02/samsung-bans-use-of-generative-ai-tools-like-chatgpt-after-april-internal-data-leak/)
+6. [AI-powered Bing Chat spills its secrets via prompt injection attack (Updated) - By asking “Sydney” to ignore previous instructions, it reveals its original directives.](https://arstechnica.com/information-technology/2023/02/ai-powered-bing-chat-spills-its-secrets-via-prompt-injection-attack/)
 
 ## Contributors
 *   [Sanjeev Jaiswal](https://github.com/jassics)
