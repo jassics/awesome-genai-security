@@ -114,6 +114,8 @@ Tools for defending, scanning, and auditing GenAI systems.
 5. [Protect AI's OSS Portfolio](https://github.com/protectai)
 6. [LLM Guard Playground](https://huggingface.co/spaces/protectai/llm-guard-playground)
 
+7. [asqav - AI Agent Governance SDK](https://github.com/jagmarques/asqav-sdk) - Cryptographically signed audit trails, runtime policy enforcement, and OWASP Agentic Top 10 compliance for AI agent tool calls. Post-quantum signatures (ML-DSA).
+
 ### Offensive / Red Teaming
 1. [AI/ML Exploits](https://github.com/protectai/ai-exploits)
 2. [Garak - LLM Vulnerability Scanner](https://github.com/NVIDIA/garak)
