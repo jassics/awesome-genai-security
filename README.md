@@ -113,6 +113,8 @@ Tools for defending, scanning, and auditing GenAI systems.
 4. [NB Defense](https://github.com/protectai/nbdefense) - Notebook security.
 5. [Protect AI's OSS Portfolio](https://github.com/protectai)
 6. [LLM Guard Playground](https://huggingface.co/spaces/protectai/llm-guard-playground)
+7. [ai-evaluation](https://github.com/future-agi/ai-evaluation) - LLM evaluation framework with 50+ metrics, LLM-as-Judge, and guardrail scanners (jailbreak, PII, injection).
+8. [Future AGI](https://github.com/future-agi/future-agi) - Self-hostable end-to-end agent engineering platform with tracing, evals, guardrails, and gateway.
 
 ### Offensive / Red Teaming
 1. [AI/ML Exploits](https://github.com/protectai/ai-exploits)
