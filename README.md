@@ -127,6 +127,7 @@ Tools for defending, scanning, and auditing GenAI systems.
 2. [NeMo Guardrails (NVIDIA)](https://github.com/NVIDIA/NeMo-Guardrails) - Programmable guardrails for LLM applications.
 3. [Vigil - LLM Prompt Injection Detection](https://github.com/deadbits/vigil-llm)
 4. [Lakera Guard](https://www.lakera.ai/) - Real-time AI security for prompt injection and data leakage.
+5. [Future AGI Protect](https://github.com/future-agi/future-agi) - Open-source multimodal guardrails detecting prompt injection, jailbreak, PII, and toxicity across text, image, and audio. Self-hosted, real-time enforcement.
 
 ## Security Practices and CTFs
 Practice your skills with these vulnerable applications and challenges.
