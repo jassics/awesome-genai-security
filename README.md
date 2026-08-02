@@ -145,6 +145,7 @@ Tools for defending, scanning, and auditing GenAI systems.
 4. [Lakera Guard](https://www.lakera.ai/) - Real-time AI security for prompt injection and data leakage.
 5. [Trylon Gateway](https://github.com/trylonai/gateway) - Self-hosted open-source AI firewall/proxy applying custom guardrails (prompt-injection defense, PII redaction).
 6. [Bifrost AI Gateway](https://github.com/maximhq/bifrost) - High-performance open-source AI gateway unifying 20+ LLM providers with governance and policy enforcement.
+7. [OpenSecureAI Firewall](https://www.opensecureai.com/tools/firewall) - Open-source guardrail (npm `@opensecureai/firewall` + CLI) that blocks prompt injection and leaked secrets and redacts PII before text reaches an LLM.
 
 ## Security Practices and CTFs
 Practice your skills with these vulnerable applications and challenges.
