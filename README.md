@@ -176,6 +176,7 @@ Tools for defending, scanning, and auditing GenAI systems.
 11. [AIsbom](https://aisbom.io/) - CLI that scans model files for malware and generates CycloneDX/SPDX AI SBOMs.
 12. [Agentic Radar (SPLX)](https://github.com/splx-ai/agentic-radar) - Security scanner that maps and analyzes agentic workflows.
 13. [Giskard](https://github.com/Giskard-AI/giskard) - Testing and scanning framework for ML/LLM systems.
+14. [DeepKeep Model Scanning & Agent Scanner](https://www.deepkeep.ai) - Supply-chain and agent-attack-surface scanning for AI models, agents, and MCP tool use.
 
 ### Offensive / Red Teaming
 1. [AI/ML Exploits](https://github.com/protectai/ai-exploits)
@@ -187,6 +188,7 @@ Tools for defending, scanning, and auditing GenAI systems.
 7. [DeepTeam - LLM & AI-Agent Red Teaming Framework](https://github.com/confident-ai/deepteam) - 50+ vulnerability types and 20+ attack methods mapped to OWASP/NIST/MITRE.
 8. [Promptfoo - LLM Testing & Red Teaming](https://github.com/promptfoo/promptfoo) - Generates adversarial inputs to find prompt injection, jailbreaks, and data leakage, with CI/CD integration.
 9. [Redcells - Automated Adversarial Testing for LLMs](https://redcells.net) - Public-beta platform for automated adversarial testing of LLMs you own or control. OpenAI-compatible target models, iterative attack→refine layers, dashboard + API. ([Repo](https://github.com/awdemos/redcell))
+10. [DeepKeep Vibe AI Red Teaming](https://www.deepkeep.ai) - Human-steered dynamic AI red teaming that lets security teams guide and adapt attacks against models and agents in real time.
 
 ### Guardrails & Firewalls
 1. [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Input/output validation for LLMs.
@@ -197,6 +199,7 @@ Tools for defending, scanning, and auditing GenAI systems.
 6. [Trylon Gateway](https://github.com/trylonai/gateway) - Self-hosted open-source AI firewall/proxy applying custom guardrails (prompt-injection defense, PII redaction).
 7. [Bifrost AI Gateway](https://github.com/maximhq/bifrost) - High-performance open-source AI gateway unifying 20+ LLM providers with governance and policy enforcement.
 8. [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first security harness that intercepts tool calls in AI coding agents before files change or network is contacted. Scans skills, MCP servers, and plugins for supply-chain threats.
+9. [DeepKeep AI Firewall](https://www.deepkeep.ai) - Real-time inline protection against prompt injection, data leakage, and unsafe outputs across the AI application lifecycle.
 
 ## Security Practices and CTFs
 Practice your skills with these vulnerable applications and challenges.
