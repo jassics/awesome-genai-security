@@ -65,6 +65,7 @@ Important papers, standards, and checklists from organizations like OWASP, NIST,
 18. [OWASP Agentic Security Initiative](https://genai.owasp.org/initiatives/#agentic) - Threats & mitigations, multi-agent threat modeling, and reference guides.
 19. [Vulnerable Autonomous Agents Threat Model](https://github.com/jsotiro/ThreatModels) - LLM threat models for autonomous agents.
 20. [Top 10 Agentic AI Security Risks - Key Threats and Mitigation Strategies (PDF)](https://46710127.fs1.hubspotusercontent-na2.net/hubfs/46710127/Documents/Top%2010%20Agentic%20AI%20Security%20Risks-Key%20Threats%20and%20Mitigation%20Strategies.pdf) - Industry threat/mitigation reference.
+21. [Bounded Agents: Delegation Security for Multi-Agent AI Systems](https://arxiv.org/abs/2608.15888) - Introduces the Agentic Principal Chain (APC), an external authorization architecture that attenuates delegated authority across multi-agent chains and blocks prohibited compositions of individually permitted actions. [Reference implementation](https://github.com/xmuruaga/bounded-agents).
 
 ## Agent Frameworks & Agentic Engineering
 The frameworks you'll be securing — knowing how they orchestrate tools, state, and control flow is half the job.
@@ -290,6 +291,7 @@ Thanks to everyone who helps keep this list current. Your name could be next —
 *   [kantorcodes](https://github.com/kantorcodes) - HOL Guard
 *   [awdemos](https://github.com/awdemos) - Redcells
 *   [K4r1it0](https://github.com/K4r1it0) - PromptTrace
+*   [xmuruaga](https://github.com/xmuruaga) - Bounded Agents
 
 ---
 
