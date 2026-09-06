@@ -190,6 +190,7 @@ Tools for defending, scanning, and auditing GenAI systems.
 7. [DeepTeam - LLM & AI-Agent Red Teaming Framework](https://github.com/confident-ai/deepteam) - 50+ vulnerability types and 20+ attack methods mapped to OWASP/NIST/MITRE.
 8. [Promptfoo - LLM Testing & Red Teaming](https://github.com/promptfoo/promptfoo) - Generates adversarial inputs to find prompt injection, jailbreaks, and data leakage, with CI/CD integration.
 9. [Redcells - Automated Adversarial Testing for LLMs](https://redcells.net) - Public-beta platform for automated adversarial testing of LLMs you own or control. OpenAI-compatible target models, iterative attack→refine layers, dashboard + API. ([Repo](https://github.com/awdemos/redcell))
+10. [Sentinel Scan](https://github.com/Ventrova/sentinel-scan-cli) - CLI for authorized LLM red-team audits: prompt injection, jailbreak, and data-leak probes with a scored report.
 
 ### Guardrails & Firewalls
 1. [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Input/output validation for LLMs.
