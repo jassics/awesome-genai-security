@@ -96,6 +96,9 @@ The frameworks you'll be securing — knowing how they orchestrate tools, state,
 3. [Hacking LLMs and Prompt Injection - LiveOverflow](https://www.youtube.com/watch?v=Sv5OLj2nVAQ)
 4. [AI Red Teaming - DEFCON AI Village](https://www.youtube.com/watch?v=JCRoFMHjLng)
 5. [Securing LLM Applications - SANS Institute](https://www.youtube.com/watch?v=gcnWoR5eJQQ)
+6. [Excessive Agency in AI: Hidden Security Risk](https://youtu.be/o4TEomdkpCw)
+7. [RAG Explained: Retrieval Augmented Generation in AI](https://youtu.be/97OwDxvWie8)
+8. [How Do Large Language Models Work? | LLM Architecture Explained](https://youtu.be/klcCPgbn3GM)
 
 ## Online Tutorials / Blogs / Presentations
 Articles and guides covering LLM, RAG, and general GenAI security.
