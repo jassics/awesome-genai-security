@@ -200,6 +200,7 @@ Tools for defending, scanning, and auditing GenAI systems.
 6. [Trylon Gateway](https://github.com/trylonai/gateway) - Self-hosted open-source AI firewall/proxy applying custom guardrails (prompt-injection defense, PII redaction).
 7. [Bifrost AI Gateway](https://github.com/maximhq/bifrost) - High-performance open-source AI gateway unifying 20+ LLM providers with governance and policy enforcement.
 8. [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first security harness that intercepts tool calls in AI coding agents before files change or network is contacted. Scans skills, MCP servers, and plugins for supply-chain threats.
+9. [Koma](https://github.com/swnotmetal/Project-Koma) - Zero-dependency Node.js/TypeScript security primitives for AI applications, including prompt-injection defense and protected data-access patterns.
 
 ## Security Practices and CTFs
 Practice your skills with these vulnerable applications and challenges.
@@ -293,6 +294,7 @@ Thanks to everyone who helps keep this list current. Your name could be next —
 *   [kantorcodes](https://github.com/kantorcodes) - HOL Guard
 *   [awdemos](https://github.com/awdemos) - Redcells
 *   [K4r1it0](https://github.com/K4r1it0) - PromptTrace
+*   [swnotmetal](https://github.com/swnotmetal) - Koma
 
 ---
 
