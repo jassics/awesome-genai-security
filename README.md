@@ -179,6 +179,7 @@ Tools for defending, scanning, and auditing GenAI systems.
 11. [AIsbom](https://aisbom.io/) - CLI that scans model files for malware and generates CycloneDX/SPDX AI SBOMs.
 12. [Agentic Radar (SPLX)](https://github.com/splx-ai/agentic-radar) - Security scanner that maps and analyzes agentic workflows.
 13. [Giskard](https://github.com/Giskard-AI/giskard) - Testing and scanning framework for ML/LLM systems.
+14. [PasteGuard](https://github.com/ExtendedUser/pasteguard) - Browser-local scanner for API keys, tokens, and PII before pasting into AI chats (nothing leaves the browser).
 
 ### Offensive / Red Teaming
 1. [AI/ML Exploits](https://github.com/protectai/ai-exploits)
@@ -293,6 +294,7 @@ Thanks to everyone who helps keep this list current. Your name could be next —
 *   Aj7ay7 - Practical DevSecOps CAISP certification
 *   [anviren](https://github.com/anviren) - Omega Walls
 *   [kantorcodes](https://github.com/kantorcodes) - HOL Guard
+*   [ExtendedUser](https://github.com/ExtendedUser) - PasteGuard
 *   [awdemos](https://github.com/awdemos) - Redcells
 *   [K4r1it0](https://github.com/K4r1it0) - PromptTrace
 *   [swnotmetal](https://github.com/swnotmetal) - Koma
