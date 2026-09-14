@@ -179,6 +179,7 @@ Tools for defending, scanning, and auditing GenAI systems.
 11. [AIsbom](https://aisbom.io/) - CLI that scans model files for malware and generates CycloneDX/SPDX AI SBOMs.
 12. [Agentic Radar (SPLX)](https://github.com/splx-ai/agentic-radar) - Security scanner that maps and analyzes agentic workflows.
 13. [Giskard](https://github.com/Giskard-AI/giskard) - Testing and scanning framework for ML/LLM systems.
+14. [Council of AI GSPC](https://github.com/CSOAI-ORG/councilof-ai) - Public model and agent measurement with signed evidence cards, public roots, and an offline verifier; measurement, not certification.
 
 ### Offensive / Red Teaming
 1. [AI/ML Exploits](https://github.com/protectai/ai-exploits)
