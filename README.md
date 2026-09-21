@@ -22,6 +22,7 @@ Each sub-domain of GenAI security has its own page with papers/standards, tools,
 | [**Agents & Agentic AI**](agents-agentic-ai.md) | Single-agent autonomy, excessive agency, memory poisoning, agent frameworks |
 | [**Multi-Agent, Agent Identity & A2A**](multi-agent-identity.md) | Agent-to-agent trust, delegated identity, multi-agent orchestration risk |
 | [**AI Harness, Runtime & Loop Engineering**](ai-harness-loop-engineering.md) | Tool-calling loops, sandboxing, coding-agent/IDE-harness supply chain |
+| [**AI Observability, Logging & Monitoring**](ai-observability-monitoring.md) | LLM/agent tracing, drift detection, runtime guardrail enforcement |
 
 Cross-cutting material that doesn't belong to a single category — books, courses, certifications, regulation, and the full incident timeline — stays below.
 
