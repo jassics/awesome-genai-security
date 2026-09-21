@@ -162,7 +162,7 @@ Notable real-world incidents involving GenAI and LLM security, newest first. For
 2. [AI Village (DEF CON)](https://aivillage.org/) - Community focused on AI security research.
 3. [MLSecOps Community](https://mlsecops.com/) - Community for ML security operations.
 4. [The AI Security Newsletter by Ken Huang](https://www.linkedin.com/newsletters/ai-security-newsletter-7153297736498069504/)
-5. [Protect AI Blog (now part of Palo Alto Networks)](https://protectai.com/blog)
+5. [Protect AI (now part of Palo Alto Networks)](https://protectai.com/) - Blog content now folded into [Palo Alto Networks' AI Security blog](https://www.paloaltonetworks.com/blog/ai-security/).
 
 ## Contributing
 Found a great paper, tool, course, CTF, or incident writeup on GenAI, LLM, RAG, MCP, or agentic AI security? Read [CONTRIBUTING.md](CONTRIBUTING.md) and open a pull request. Small additions are very welcome — add category-specific resources to the right [category page](#genai-security-categories); cross-cutting resources (books, courses, incidents, regulation) go in this README.

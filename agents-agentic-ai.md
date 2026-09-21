@@ -31,20 +31,23 @@ Single-agent autonomy risk: excessive agency, memory poisoning, planning/tool-us
 1. [OWASP Agentic AI Top 10](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
 2. [OWASP Securing Agentic Applications Guide 1.0](https://genai.owasp.org/resource/securing-agentic-applications-guide-1-0/) - Reference architecture and controls for building secure agentic apps.
 3. [OWASP Agentic Security Initiative](https://genai.owasp.org/initiatives/#agentic) - Threats & mitigations, multi-agent threat modeling, and reference guides.
-4. [Microsoft: Zero Trust for AI (Tools & Guidance)](https://www.microsoft.com/en-us/security/blog/2026/03/19/new-tools-and-guidance-announcing-zero-trust-for-ai/) - Applying Zero Trust principles to AI agents and workloads.
-5. [Vulnerable Autonomous Agents Threat Model](https://github.com/jsotiro/ThreatModels) - LLM threat models for autonomous agents.
-6. [Top 10 Agentic AI Security Risks - Key Threats and Mitigation Strategies (PDF)](https://46710127.fs1.hubspotusercontent-na2.net/hubfs/46710127/Documents/Top%2010%20Agentic%20AI%20Security%20Risks-Key%20Threats%20and%20Mitigation%20Strategies.pdf) - Industry threat/mitigation reference.
-7. [OWASP: Memory as Attack Surface - Memory & Context Poisoning in Agentic Applications](https://genai.owasp.org/2026/05/13/memory-is-a-feature-it-is-also-an-attack-surface/) - ASI06 deep dive on agent memory as a persistent attack surface.
-8. [The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) - Private data + untrusted content + exfiltration = a data leak waiting to happen.
-9. [Imprompter: Tricking LLM Agents into Improper Tool Use](https://imprompter.ai/) - Attack demonstration against tool-using agents.
-10. [Excessive Agency in AI: Hidden Security Risk (video)](https://youtu.be/o4TEomdkpCw)
+4. [Agentic Security Risks - OWASP](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/) - Threats and mitigations reference for agentic applications.
+5. [Microsoft: Zero Trust for AI (Tools & Guidance)](https://www.microsoft.com/en-us/security/blog/2026/03/19/new-tools-and-guidance-announcing-zero-trust-for-ai/) - Applying Zero Trust principles to AI agents and workloads.
+6. [Vulnerable Autonomous Agents Threat Model](https://github.com/jsotiro/ThreatModels) - LLM threat models for autonomous agents.
+7. [Top 10 Agentic AI Security Risks - Key Threats and Mitigation Strategies (PDF)](https://46710127.fs1.hubspotusercontent-na2.net/hubfs/46710127/Documents/Top%2010%20Agentic%20AI%20Security%20Risks-Key%20Threats%20and%20Mitigation%20Strategies.pdf) - Industry threat/mitigation reference.
+8. [OWASP: Memory as Attack Surface - Memory & Context Poisoning in Agentic Applications](https://genai.owasp.org/2026/05/13/memory-is-a-feature-it-is-also-an-attack-surface/) - ASI06 deep dive on agent memory as a persistent attack surface.
+9. [The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) - Private data + untrusted content + exfiltration = a data leak waiting to happen.
+10. [Imprompter: Tricking LLM Agents into Improper Tool Use](https://imprompter.ai/) - Attack demonstration against tool-using agents.
+11. [Excessive Agency in AI: Hidden Security Risk (video)](https://youtu.be/o4TEomdkpCw)
 
 ## Tools
 1. [Agentic Radar (SPLX)](https://github.com/splx-ai/agentic-radar) - Security scanner that maps and analyzes agentic workflows.
-2. [Council of AI GSPC](https://github.com/CSOAI-ORG/councilof-ai) - Public model and agent measurement with signed evidence cards, public roots, and an offline verifier; measurement, not certification.
+2. [Council of AI GSPC](https://github.com/api-evangelist/councilof-ai) - Public model and agent measurement with signed evidence cards, public roots, and an offline verifier; measurement, not certification.
 3. [DeepTeam - LLM & AI-Agent Red Teaming Framework](https://github.com/confident-ai/deepteam) - 50+ vulnerability types and 20+ attack methods mapped to OWASP/NIST/MITRE.
 4. [Omega Walls](https://github.com/synqratech/omega-walls) - Open-source stateful prompt injection defense for RAG and agent pipelines, built as a runtime trust boundary across untrusted content, memory, context, and tools.
 5. [Koma](https://github.com/swnotmetal/Project-Koma) - Zero-dependency Node.js/TypeScript security primitives for AI applications, including prompt-injection defense and protected data-access patterns.
+6. [Protect AI's OSS Portfolio](https://github.com/protectai) - Collection of open-source AI/ML security tools (LLM Guard, ModelScan, Rebuff, and more).
+7. [Redcells - Automated Adversarial Testing for LLMs](https://redcells.net) - Public-beta platform for automated adversarial testing of LLMs and agents you own or control. OpenAI-compatible target models, iterative attack→refine layers, dashboard + API. ([Repo](https://github.com/awdemos/redcell))
 
 ## Attacks, Breaches & Incidents
 1. [Hugging Face Breached by an Autonomous AI Agent (Jul 2026)](https://huggingface.co/blog/security-incident-july-2026) - An agentic system escaped a public security benchmark, abused two code-execution paths in Hugging Face's dataset processing, and reached production infrastructure over a weekend.

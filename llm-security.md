@@ -20,22 +20,22 @@ Core model- and prompt-level risk: jailbreaks, prompt injection, model theft, tr
 6. [Microsoft Failure Models in Machine Learning](https://securityandtechnology.org/wp-content/uploads/2020/07/failure_modes_in_machine_learning.pdf)
 7. [Microsoft Threat Modeling AI/ML](https://learn.microsoft.com/en-us/security/engineering/threat-modeling-aiml)
 8. [MITRE ATLAS (Adversarial Threat Landscape for AI Systems)](https://atlas.mitre.org/)
-9. [Google Secure AI Framework (SAIF)](https://safety.google/cybersecurity-advancements/saif/)
-10. [Anthropic Responsible Scaling Policy](https://www.anthropic.com/index/anthropics-responsible-scaling-policy)
-11. [ENISA Multilayer Framework for Good Cybersecurity Practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai)
-12. [Databricks AI Security Framework (DASF) 2.0](https://www.databricks.com/resources/whitepaper/databricks-ai-security-framework-dasf) - Practical controls mapped to AI system components and risks.
-13. [Prompt Injection Attacks and Defenses in LLM-Integrated Applications](https://arxiv.org/abs/2310.12815)
+9. [OWASP GenAI Security Project](https://genai.owasp.org/) - Hub for all OWASP GenAI Top 10s, guides, and initiatives.
+10. [Google Secure AI Framework (SAIF)](https://safety.google/cybersecurity-advancements/saif/)
+11. [Anthropic Responsible Scaling Policy](https://www.anthropic.com/index/anthropics-responsible-scaling-policy)
+12. [ENISA Multilayer Framework for Good Cybersecurity Practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai)
+13. [Databricks AI Security Framework (DASF) 2.0](https://www.databricks.com/resources/whitepaper/databricks-ai-security-framework-dasf) - Practical controls mapped to AI system components and risks.
+14. [Prompt Injection Attacks and Defenses in LLM-Integrated Applications](https://arxiv.org/abs/2310.12815)
 
 ## Attacks & Techniques
-1. [Web LLM attacks - PortSwigger](https://portswigger.net/web-security/llm-attacks)
-2. [Prompt injection jailbreaking](https://ogre51.medium.com/security-of-llm-apps-prompt-injection-jailbreaking-fb9fc5c883a8)
-3. [LLM Attacks - Universal and Transferable Adversarial Attacks on Aligned LLMs](https://llm-attacks.org/)
-4. [Not what you've signed up for: Compromising Real-World LLM-Integrated Applications](https://arxiv.org/abs/2302.12173)
-5. [Simon Willison's Blog on Prompt Injection](https://simonwillison.net/series/prompt-injection/)
-6. [Embrace the Red - AI Security Blog by Johann Rehberger](https://embracethered.com/)
-7. [Trail of Bits - AI/ML Security Research](https://blog.trailofbits.com/categories/machine-learning/)
-8. [LLM Security](https://llmsecurity.net/)
-9. [Awesome LLM Security](https://github.com/corca-ai/awesome-llm-security) - Deep academic paper tracker (jailbreak/backdoor/defense research) if you need to go beyond this page.
+1. [Prompt injection jailbreaking](https://ogre51.medium.com/security-of-llm-apps-prompt-injection-jailbreaking-fb9fc5c883a8)
+2. [LLM Attacks - Universal and Transferable Adversarial Attacks on Aligned LLMs](https://llm-attacks.org/)
+3. [Not what you've signed up for: Compromising Real-World LLM-Integrated Applications](https://arxiv.org/abs/2302.12173)
+4. [Simon Willison's Blog on Prompt Injection](https://simonwillison.net/series/prompt-injection/)
+5. [Embrace the Red - AI Security Blog by Johann Rehberger](https://embracethered.com/)
+6. [Trail of Bits - AI/ML Security Research](https://blog.trailofbits.com/categories/machine-learning/)
+7. [LLM Security](https://llmsecurity.net/)
+8. [Awesome LLM Security](https://github.com/corca-ai/awesome-llm-security) - Deep academic paper tracker (jailbreak/backdoor/defense research) if you need to go beyond this page.
 
 ## Tools
 ### Defensive / Scanning
