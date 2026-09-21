@@ -9,6 +9,8 @@ A curated list of links, references, books, videos, tutorials (Free or Paid), Ex
 
 > **Note:** `awesome-agentic-ai-security` has been folded into this list. Agentic AI security — agent foundations, frameworks, autonomy risks, MCP, and multi-agent threats — now lives here alongside LLM and RAG security.
 
+> **Related lists:** For deep academic paper tracking (jailbreak/backdoor/defense research), see [awesome-llm-security](https://github.com/corca-ai/awesome-llm-security). For an MCP-only deep dive, see [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security). This list stays practitioner-focused — standards, tools, incidents, courses, and hands-on practice across the full LLM/RAG/MCP/Agent/Agentic AI stack.
+
 ## Table of Contents
 - [Foundations & Key Concepts](#foundations--key-concepts)
 - [GenAI Security Papers & Standards](#genai-security-papers--standards)
@@ -45,26 +47,27 @@ Background worth having before the security material — how agents plan, rememb
 ## GenAI Security Papers & Standards
 Important papers, standards, and checklists from organizations like OWASP, NIST, and others.
 
-1. [OWASP Top 10 for LLM Applications 2025](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+1. [OWASP GenAI LLM Top 10 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) - Latest community-driven refresh of the LLM Top 10 (supersedes the 2025 edition).
 2. [OWASP LLM AI Security and Governance Checklist](https://genai.owasp.org/resource/llm-applications-cybersecurity-and-governance-checklist/)
 3. [OWASP Agentic AI Top 10](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
-4. [NIST AI RMF Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook)
-5. [NIST AI Risk Management Framework (AI RMF)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
-6. [NIST Adversarial Machine Learning](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2023.pdf)
-7. [Microsoft Failure Models in Machine Learning](https://securityandtechnology.org/wp-content/uploads/2020/07/failure_modes_in_machine_learning.pdf)
-8. [Microsoft Threat Modeling AI/ML](https://learn.microsoft.com/en-us/security/engineering/threat-modeling-aiml)
-9. [OWASP GenAI Security Project](https://genai.owasp.org/)
-10. [MITRE ATLAS (Adversarial Threat Landscape for AI Systems)](https://atlas.mitre.org/)
-11. [Google Secure AI Framework (SAIF)](https://safety.google/cybersecurity-advancements/saif/)
-12. [Anthropic Responsible Scaling Policy](https://www.anthropic.com/index/anthropics-responsible-scaling-policy)
-13. [ENISA Multilayer Framework for Good Cybersecurity Practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai)
-14. [Databricks AI Security Framework (DASF) 2.0](https://www.databricks.com/resources/whitepaper/databricks-ai-security-framework-dasf) - Practical controls mapped to AI system components and risks.
-15. [OWASP Securing Agentic Applications Guide 1.0](https://genai.owasp.org/resource/securing-agentic-applications-guide-1-0/) - Reference architecture and controls for building secure agentic apps.
-16. [CSA MAESTRO - Agentic AI Threat Modeling Framework](https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro) - Seven-layer threat modeling for agentic AI systems.
-17. [Microsoft: Zero Trust for AI (Tools & Guidance)](https://www.microsoft.com/en-us/security/blog/2026/03/19/new-tools-and-guidance-announcing-zero-trust-for-ai/) - Applying Zero Trust principles to AI agents and workloads.
-18. [OWASP Agentic Security Initiative](https://genai.owasp.org/initiatives/#agentic) - Threats & mitigations, multi-agent threat modeling, and reference guides.
-19. [Vulnerable Autonomous Agents Threat Model](https://github.com/jsotiro/ThreatModels) - LLM threat models for autonomous agents.
-20. [Top 10 Agentic AI Security Risks - Key Threats and Mitigation Strategies (PDF)](https://46710127.fs1.hubspotusercontent-na2.net/hubfs/46710127/Documents/Top%2010%20Agentic%20AI%20Security%20Risks-Key%20Threats%20and%20Mitigation%20Strategies.pdf) - Industry threat/mitigation reference.
+5. [NIST AI RMF Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook)
+6. [NIST AI Risk Management Framework (AI RMF)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
+7. [NIST Adversarial Machine Learning](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2023.pdf)
+8. [Microsoft Failure Models in Machine Learning](https://securityandtechnology.org/wp-content/uploads/2020/07/failure_modes_in_machine_learning.pdf)
+9. [Microsoft Threat Modeling AI/ML](https://learn.microsoft.com/en-us/security/engineering/threat-modeling-aiml)
+10. [OWASP GenAI Security Project](https://genai.owasp.org/)
+11. [MITRE ATLAS (Adversarial Threat Landscape for AI Systems)](https://atlas.mitre.org/)
+12. [Google Secure AI Framework (SAIF)](https://safety.google/cybersecurity-advancements/saif/)
+13. [Anthropic Responsible Scaling Policy](https://www.anthropic.com/index/anthropics-responsible-scaling-policy)
+14. [ENISA Multilayer Framework for Good Cybersecurity Practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai)
+15. [Databricks AI Security Framework (DASF) 2.0](https://www.databricks.com/resources/whitepaper/databricks-ai-security-framework-dasf) - Practical controls mapped to AI system components and risks.
+16. [OWASP Securing Agentic Applications Guide 1.0](https://genai.owasp.org/resource/securing-agentic-applications-guide-1-0/) - Reference architecture and controls for building secure agentic apps.
+17. [CSA MAESTRO - Agentic AI Threat Modeling Framework](https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro) - Seven-layer threat modeling for agentic AI systems.
+18. [Microsoft: Zero Trust for AI (Tools & Guidance)](https://www.microsoft.com/en-us/security/blog/2026/03/19/new-tools-and-guidance-announcing-zero-trust-for-ai/) - Applying Zero Trust principles to AI agents and workloads.
+19. [OWASP Agentic Security Initiative](https://genai.owasp.org/initiatives/#agentic) - Threats & mitigations, multi-agent threat modeling, and reference guides.
+20. [Vulnerable Autonomous Agents Threat Model](https://github.com/jsotiro/ThreatModels) - LLM threat models for autonomous agents.
+21. [Top 10 Agentic AI Security Risks - Key Threats and Mitigation Strategies (PDF)](https://46710127.fs1.hubspotusercontent-na2.net/hubfs/46710127/Documents/Top%2010%20Agentic%20AI%20Security%20Risks-Key%20Threats%20and%20Mitigation%20Strategies.pdf) - Industry threat/mitigation reference.
+22. [OWASP: Memory as Attack Surface - Memory & Context Poisoning in Agentic Applications](https://genai.owasp.org/2026/05/13/memory-is-a-feature-it-is-also-an-attack-surface/) - ASI06 deep dive on agent memory as a persistent attack surface.
 
 ## Agent Frameworks & Agentic Engineering
 The frameworks you'll be securing — knowing how they orchestrate tools, state, and control flow is half the job.
@@ -130,6 +133,13 @@ Articles and guides covering LLM, RAG, and general GenAI security.
 4. [Tool Poisoning Attacks in MCP](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)
 5. [The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) - Private data + untrusted content + exfiltration = a data leak waiting to happen.
 6. [Imprompter: Tricking LLM Agents into Improper Tool Use](https://imprompter.ai/) - Attack demonstration against tool-using agents.
+7. [MCP Official Security Best Practices](https://modelcontextprotocol.io/specification/draft/basic/security_best_practices) - The spec's own guidance on confused deputy, token passthrough, and session hijacking.
+8. [SlowMist MCP Security Checklist](https://github.com/slowmist/MCP-Security-Checklist) - Practical checklist covering server, client, and transport-level MCP hardening.
+9. [Jumping the Line: How MCP Servers Can Attack You Before You Ever Use Them](https://blog.trailofbits.com/2025/04/21/jumping-the-line-how-mcp-servers-can-attack-you-before-you-ever-use-them/) - Trail of Bits on line-jumping/tool-definition attacks during MCP handshake.
+10. [Insecure Credential Storage Plagues MCP](https://blog.trailofbits.com/2025/04/30/insecure-credential-storage-plagues-mcp/) - Survey of how MCP clients mishandle stored tokens/secrets.
+11. [ToolHive (StacklokLabs)](https://github.com/StacklokLabs/toolhive) - Runs MCP servers in locked-down containers with secrets management and network isolation.
+12. [mcp-context-protector (Trail of Bits)](https://github.com/trailofbits/mcp-context-protector) - Security wrapper that validates and sandboxes MCP server responses before they reach the LLM.
+13. [Awesome MCP Security](https://github.com/Puliczek/awesome-mcp-security) - Curated, continuously-updated list of MCP-specific papers, incidents, and tooling if you need to go deeper than this section.
 
 ### LLM Attacks
 1. [Web LLM attacks - PortSwigger](https://portswigger.net/web-security/llm-attacks)
@@ -147,6 +157,10 @@ Articles and guides covering LLM, RAG, and general GenAI security.
 7. [AttackIQ: The foundation of AI Security](https://www.academy.attackiq.com/courses/foundations-of-ai-security)
 8. [Microsoft AI Red Teaming 101 (Microsoft Learn)](https://learn.microsoft.com/en-us/security/ai-red-team/training) - Free training on GenAI vulnerabilities, single/multi-turn attacks, spotlighting defenses, and PyRIT automation.
 9. [SANS SEC545: GenAI and LLM Application Security](https://www.sans.org/cyber-security-courses/genai-llm-application-security/) - RAG/vector-DB security, prompt injection, MLOps hardening, and agentic AI security (maps to GIAC GAIPS).
+10. [DeepLearning.AI: Red Teaming LLM Applications](https://www.deeplearning.ai/courses/red-teaming-llm-applications/) - Hands-on course on identifying and evaluating LLM app vulnerabilities.
+11. [DeepLearning.AI: Safe and Reliable AI via Guardrails](https://www.deeplearning.ai/courses/safe-and-reliable-ai-via-guardrails/) - Moving LLM apps to production with runtime guardrail controls.
+12. [DeepLearning.AI: Quality and Safety for LLM Applications](https://www.deeplearning.ai/courses/quality-safety-llm-applications/) - Evaluating and monitoring LLM app safety/security in production.
+13. [Hugging Face Agents Course](https://huggingface.co/learn/agents-course) - Free course on building and deploying AI agents; useful foundation before threat-modeling agentic systems.
 
 ## Study Plans, Roadmaps & Interview Prep
 Structured paths for going from "interested in AI security" to job-ready.
