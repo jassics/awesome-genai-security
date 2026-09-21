@@ -19,7 +19,9 @@ Please keep it **high quality and relevant** — this is a curated list, not a l
 ## How to add a resource
 
 1. Fork the repo and create a branch.
-2. Add your link to the **most relevant section** in `README.md`.
+2. Figure out where it belongs:
+   - **Category-specific** (LLM jailbreaks/tools, RAG poisoning, MCP attacks, agent/agentic frameworks, multi-agent/identity, harness/loop-engineering) → add it to the matching category page (`llm-security.md`, `rag-security.md`, `mcp-security.md`, `agents-agentic-ai.md`, `multi-agent-identity.md`, `ai-harness-loop-engineering.md`).
+   - **Cross-cutting** (books, videos, general courses, certs, regulation, newsletters, or a real-world incident) → add it to the relevant section of `README.md`.
 3. Match the existing numbered-list format:
 
    ```markdown
@@ -28,8 +30,8 @@ Please keep it **high quality and relevant** — this is a curated list, not a l
 
    A description is optional for self-explanatory entries (books, courses), but encouraged for tools, papers, and blogs.
 4. Prefer the primary/original source. Avoid affiliate or tracking links.
-5. Check that your link works and isn't already listed elsewhere in the README.
-6. If you add a new section, add it to the **Table of Contents** too.
+5. Check that your link works and isn't already listed elsewhere (README or any category page).
+6. If you add a new section or category page, add it to the **Table of Contents** (README) or the category-index table.
 7. Open a pull request describing what you added and why it's valuable.
 
 ## Style guidelines
