@@ -48,6 +48,7 @@ Single-agent autonomy risk: excessive agency, memory poisoning, planning/tool-us
 5. [Koma](https://github.com/swnotmetal/Project-Koma) - Zero-dependency Node.js/TypeScript security primitives for AI applications, including prompt-injection defense and protected data-access patterns.
 6. [Protect AI's OSS Portfolio](https://github.com/protectai) - Collection of open-source AI/ML security tools (LLM Guard, ModelScan, Rebuff, and more).
 7. [Redcells - Automated Adversarial Testing for LLMs](https://redcells.net) - Public-beta platform for automated adversarial testing of LLMs and agents you own or control. OpenAI-compatible target models, iterative attack→refine layers, dashboard + API. ([Repo](https://github.com/awdemos/redcell))
+8. [AI-Infra-Guard (Tencent Zhuque Lab)](https://github.com/Tencent/AI-Infra-Guard) - Multi-layer AI red-teaming platform: Agent Scan for agent-workflow misconfigurations, MCP/Agent-Skill scanning across 14 risk categories, AI-infra CVE fingerprinting for 146+ components, and multi-turn LLM jailbreak evaluation.
 
 ## Attacks, Breaches & Incidents
 1. [Hugging Face Breached by an Autonomous AI Agent (Jul 2026)](https://huggingface.co/blog/security-incident-july-2026) - An agentic system escaped a public security benchmark, abused two code-execution paths in Hugging Face's dataset processing, and reached production infrastructure over a weekend.
