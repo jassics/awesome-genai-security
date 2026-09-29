@@ -23,6 +23,8 @@ Model Context Protocol servers/clients: tool poisoning, auth, transport, and cre
 3. [Jumping the Line: How MCP Servers Can Attack You Before You Ever Use Them](https://blog.trailofbits.com/2025/04/21/jumping-the-line-how-mcp-servers-can-attack-you-before-you-ever-use-them/) - Trail of Bits on line-jumping/tool-definition attacks during MCP handshake.
 4. [Insecure Credential Storage Plagues MCP](https://blog.trailofbits.com/2025/04/30/insecure-credential-storage-plagues-mcp/) - Survey of how MCP clients mishandle stored tokens/secrets.
 5. [Awesome MCP Security](https://github.com/Puliczek/awesome-mcp-security) - Curated, continuously-updated list of MCP-specific papers, incidents, and tooling if you need to go deeper than this page.
+6. [MCP Prompt Injection at Connect: Lab + Fixes](https://webofmike.com/mcp-discovery-prompt-injection/) - Reproducible lab showing a hostile MCP server's `instructions` field (sent at `initialize`/`server/discover`) reaching the agent's system prompt before any tool call, including cross-caller poisoning through a `cacheScope: public` cache, with isolation, size-cap, cache-binding, and pinning controls; cites a registry scan in which 5,462 of 8,235 live servers sent `instructions`.
+7. [MCP Tool Poisoning: A Name Allowlist Is Not Enough](https://webofmike.com/mcp-tool-poisoning-pin-definitions/) - Docker demo of a mid-session tool-description rug pull (modeled on the Deadbugz campaign) that a tool-name allowlist passes through, and of pinning a digest of each tool's name, description, and inputSchema to reject it.
 
 ## Tools
 1. [Invariant Labs: MCP Security Notification Tool (mcp-scan)](https://github.com/invariantlabs-ai/mcp-scan)

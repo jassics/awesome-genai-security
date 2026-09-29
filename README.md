@@ -148,6 +148,7 @@ Notable real-world incidents involving GenAI and LLM security, newest first. For
 27. [ChatGPT Data Leak Bug (2023)](https://openai.com/index/march-20-chatgpt-outage/) - Bug exposed chat history titles and payment info of other users.
 28. [GitHub Copilot Leaking Secrets (2023)](https://blog.gitguardian.com/yes-github-copilot-can-leak-secrets/) - AI code assistant reproducing secrets from training data.
 29. [Microsoft Tay Bot Manipulation (2016)](https://en.wikipedia.org/wiki/Tay_(chatbot)) - Twitter chatbot manipulated into generating offensive content.
+30. [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Open database of 354 sourced AI agent security records (2025-01 to 2026-09) that separates confirmed-harm incidents from vulnerabilities and research, with JSON/CSV exports (CC BY 4.0).
 
 ## Regulatory Frameworks & Governance
 1. [EU AI Act](https://artificialintelligenceact.eu/) - EU regulation on artificial intelligence.
@@ -180,6 +181,7 @@ Thanks to everyone who helps keep this list current. Your name could be next —
 *   [K4r1it0](https://github.com/K4r1it0) - PromptTrace
 *   [swnotmetal](https://github.com/swnotmetal) - Koma
 *   [roli-lpci](https://github.com/roli-lpci) - hermes-jailbench
+*   [themsquared](https://github.com/themsquared) - MCP security articles
 
 ---
 
