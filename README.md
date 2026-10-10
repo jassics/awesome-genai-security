@@ -181,6 +181,7 @@ Thanks to everyone who helps keep this list current. Your name could be next —
 *   [K4r1it0](https://github.com/K4r1it0) - PromptTrace
 *   [swnotmetal](https://github.com/swnotmetal) - Koma
 *   [roli-lpci](https://github.com/roli-lpci) - hermes-jailbench
+*   [azrollin](https://github.com/azrollin) - SUNGLASSES
 *   [themsquared](https://github.com/themsquared) - MCP security articles
 
 ---
