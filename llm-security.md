@@ -66,6 +66,7 @@ Core model- and prompt-level risk: jailbreaks, prompt injection, model theft, tr
 4. [Lakera Guard](https://www.lakera.ai/) - Real-time AI security for prompt injection and data leakage.
 5. [Trylon Gateway](https://github.com/trylonai/gateway) - Self-hosted open-source AI firewall/proxy applying custom guardrails (prompt-injection defense, PII redaction).
 6. [Bifrost AI Gateway](https://github.com/maximhq/bifrost) - High-performance open-source AI gateway unifying 20+ LLM providers with governance and policy enforcement.
+7. [SUNGLASSES](https://github.com/sunglasses-dev/sunglasses) - Open source input firewall for AI agents that runs locally and scans text and files for prompt injection, credential leaks and data exfiltration with 1,554 patterns across 118 categories; it also runs as an MCP server.
 
 ## Attacks, Breaches & Incidents
 1. [Policy Puppetry: Universal Jailbreak Bypassing All Major LLMs (Apr 2025)](https://www.hiddenlayer.com/research/novel-universal-bypass-for-all-major-llms) - HiddenLayer disclosed a single transferable prompt that bypasses safety guardrails across OpenAI, Google, Anthropic, Meta, DeepSeek, and others.
