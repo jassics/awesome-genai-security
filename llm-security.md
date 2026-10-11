@@ -58,6 +58,7 @@ Core model- and prompt-level risk: jailbreaks, prompt injection, model theft, tr
 6. [promptmap - Prompt Injection Testing](https://github.com/utkusen/promptmap)
 7. [Promptfoo - LLM Testing & Red Teaming](https://github.com/promptfoo/promptfoo) - Generates adversarial inputs to find prompt injection, jailbreaks, and data leakage, with CI/CD integration.
 8. [Sentinel Scan](https://github.com/Ventrova/sentinel-scan-cli) - CLI for authorized LLM red-team audits: prompt injection, jailbreak, and data-leak probes with a scored report.
+9. [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench) - Zero-LLM deterministic jailbreak regression benchmark: repeatable battery of known-pattern attacks against an LLM endpoint, scored refusal/partial/compliance; single-turn, responsible-use.
 
 ### Guardrails & Firewalls
 1. [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Input/output validation for LLMs.
