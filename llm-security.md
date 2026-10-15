@@ -15,17 +15,21 @@ Core model- and prompt-level risk: jailbreaks, prompt injection, model theft, tr
 1. [OWASP GenAI LLM Top 10 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) - Latest community-driven refresh of the LLM Top 10 (supersedes the 2025 edition).
 2. [OWASP LLM AI Security and Governance Checklist](https://genai.owasp.org/resource/llm-applications-cybersecurity-and-governance-checklist/)
 3. [NIST AI RMF Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook)
-4. [NIST AI Risk Management Framework (AI RMF)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
+4. [NIST AI RMF: Generative AI Profile (AI 600-1)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) - Risk categories and mitigations specific to generative AI under the AI RMF.
 5. [NIST Adversarial Machine Learning](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2023.pdf)
-6. [Microsoft Failure Models in Machine Learning](https://securityandtechnology.org/wp-content/uploads/2020/07/failure_modes_in_machine_learning.pdf)
-7. [Microsoft Threat Modeling AI/ML](https://learn.microsoft.com/en-us/security/engineering/threat-modeling-aiml)
-8. [MITRE ATLAS (Adversarial Threat Landscape for AI Systems)](https://atlas.mitre.org/)
-9. [OWASP GenAI Security Project](https://genai.owasp.org/) - Hub for all OWASP GenAI Top 10s, guides, and initiatives.
-10. [Google Secure AI Framework (SAIF)](https://safety.google/cybersecurity-advancements/saif/)
-11. [Anthropic Responsible Scaling Policy](https://www.anthropic.com/index/anthropics-responsible-scaling-policy)
-12. [ENISA Multilayer Framework for Good Cybersecurity Practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai)
-13. [Databricks AI Security Framework (DASF) 2.0](https://www.databricks.com/resources/whitepaper/databricks-ai-security-framework-dasf) - Practical controls mapped to AI system components and risks.
-14. [Prompt Injection Attacks and Defenses in LLM-Integrated Applications](https://arxiv.org/abs/2310.12815)
+6. [Guidelines for Secure AI System Development (CISA/NCSC and Partner Agencies)](https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development) - Joint secure-by-design guidance for AI system developers from 20+ international cybersecurity agencies.
+7. [Microsoft Failure Modes in Machine Learning](https://learn.microsoft.com/en-us/security/engineering/failure-modes-in-machine-learning) - Taxonomy of how ML systems fail in adversarial settings.
+8. [Microsoft Threat Modeling AI/ML](https://learn.microsoft.com/en-us/security/engineering/threat-modeling-aiml)
+9. [MITRE ATLAS (Adversarial Threat Landscape for AI Systems)](https://atlas.mitre.org/)
+10. [OWASP GenAI Security Project](https://genai.owasp.org/) - Hub for all OWASP GenAI Top 10s, guides, and initiatives.
+11. [Google Secure AI Framework (SAIF)](https://safety.google/cybersecurity-advancements/saif/)
+12. [Anthropic Responsible Scaling Policy](https://www.anthropic.com/index/anthropics-responsible-scaling-policy)
+13. [ENISA Multilayer Framework for Good Cybersecurity Practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai)
+14. [Databricks AI Security Framework (DASF) 2.0](https://www.databricks.com/resources/whitepaper/databricks-ai-security-framework-dasf) - Practical controls mapped to AI system components and risks.
+15. [Prompt Injection Attacks and Defenses in LLM-Integrated Applications](https://arxiv.org/abs/2310.12815)
+16. [OWASP CycloneDX AI/ML BOM (ML-BOM)](https://cyclonedx.org/capabilities/mlbom/) - Machine-readable BOM standard for ML models, datasets, and the ML supply chain (now ECMA-424).
+17. [VeriRouter: Towards Verifiable LLM Routing (Yao et al., 2026)](https://arxiv.org/abs/2610.17431) - ZK proofs and serving certificates to hold compromised LLM routers accountable for ineligible model selection and unfaithful relay.
+18. [Anytime-valid Detection of LLM Weight Exfiltration (Ortega-Fernandez et al., 2026)](https://arxiv.org/abs/2610.11843) - Statistical method for catching compromised inference servers leaking model weights through token choices.
 
 ## Attacks & Techniques
 1. [Prompt injection jailbreaking](https://ogre51.medium.com/security-of-llm-apps-prompt-injection-jailbreaking-fb9fc5c883a8)
@@ -35,13 +39,18 @@ Core model- and prompt-level risk: jailbreaks, prompt injection, model theft, tr
 5. [Embrace the Red - AI Security Blog by Johann Rehberger](https://embracethered.com/)
 6. [Trail of Bits - AI/ML Security Research](https://blog.trailofbits.com/categories/machine-learning/)
 7. [LLM Security](https://llmsecurity.net/)
-8. [Awesome LLM Security](https://github.com/corca-ai/awesome-llm-security) - Deep academic paper tracker (jailbreak/backdoor/defense research) if you need to go beyond this page.
+8. [Extracting Training Data from Large Language Models (Carlini et al., 2020)](https://arxiv.org/abs/2012.07805) - Established that LLMs memorize and can be made to regurgitate training data.
+9. [Scalable Extraction of Training Data from (Production) Language Models (Nasr et al., 2023)](https://arxiv.org/abs/2311.17035) - Divergence attacks that extract training data from aligned production chatbots.
+10. [Jailbroken: How Does LLM Safety Training Fail? (Wei et al., 2023)](https://arxiv.org/abs/2307.02483) - Why aligned models remain jailbreakable, framed as a competing-objectives problem.
+11. [Tree of Attacks: Jailbreaking Black-Box LLMs Automatically (Mehrotra et al., 2023)](https://arxiv.org/abs/2312.02119) - Automated multi-agent pipeline that jailbreaks black-box commercial LLMs.
+12. [Jailbreaking Leading Safety-Aligned LLMs with Simple Adaptive Attacks (Andriushchenko et al., 2024)](https://arxiv.org/abs/2404.02151) - Simple gradient-based attacks that defeat leading aligned models.
+13. [Awesome LLM Security](https://github.com/corca-ai/awesome-llm-security) - Deep academic paper tracker (jailbreak/backdoor/defense research) if you need to go beyond this page.
 
 ## Tools
 ### Defensive / Scanning
 1. [LLM Guard](https://github.com/protectai/llm-guard) - Information extraction and security for LLMs.
 2. [Model Scan](https://github.com/protectai/modelscan) - Scanning models for serialization attacks.
-3. [Rebuff](https://github.com/protectai/rebuff) - Prompt injection detection.
+3. [Rebuff (archived)](https://github.com/protectai/rebuff) - Prompt injection detection; repository is no longer maintained.
 4. [NB Defense](https://github.com/protectai/nbdefense) - Notebook security.
 5. [LLM Guard Playground](https://huggingface.co/spaces/protectai/llm-guard-playground)
 6. [Fickling (Trail of Bits)](https://github.com/trailofbits/fickling) - Decompiler, static analyzer, and safety scanner for malicious pickle/PyTorch model files.
@@ -59,15 +68,17 @@ Core model- and prompt-level risk: jailbreaks, prompt injection, model theft, tr
 7. [Promptfoo - LLM Testing & Red Teaming](https://github.com/promptfoo/promptfoo) - Generates adversarial inputs to find prompt injection, jailbreaks, and data leakage, with CI/CD integration.
 8. [Sentinel Scan](https://github.com/Ventrova/sentinel-scan-cli) - CLI for authorized LLM red-team audits: prompt injection, jailbreak, and data-leak probes with a scored report.
 9. [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench) - Zero-LLM deterministic jailbreak regression benchmark: repeatable battery of known-pattern attacks against an LLM endpoint, scored refusal/partial/compliance; single-turn, responsible-use.
+10. [PentestGPT - Automated Penetration Testing (GreyDGL)](https://github.com/GreyDGL/PentestGPT) - LLM-empowered agent that automates and guides traditional penetration-testing workflows - AI as the attacker's tool rather than the target; see the [accompanying paper](https://arxiv.org/abs/2308.06782).
 
 ### Guardrails & Firewalls
 1. [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Input/output validation for LLMs.
 2. [NeMo Guardrails (NVIDIA)](https://github.com/NVIDIA/NeMo-Guardrails) - Programmable guardrails for LLM applications.
-3. [Vigil - LLM Prompt Injection Detection](https://github.com/deadbits/vigil-llm)
-4. [Lakera Guard](https://www.lakera.ai/) - Real-time AI security for prompt injection and data leakage.
-5. [Trylon Gateway](https://github.com/trylonai/gateway) - Self-hosted open-source AI firewall/proxy applying custom guardrails (prompt-injection defense, PII redaction).
-6. [Bifrost AI Gateway](https://github.com/maximhq/bifrost) - High-performance open-source AI gateway unifying 20+ LLM providers with governance and policy enforcement.
-7. [SUNGLASSES](https://github.com/sunglasses-dev/sunglasses) - Open source input firewall for AI agents that runs locally and scans text and files for prompt injection, credential leaks and data exfiltration with 1,554 patterns across 118 categories; it also runs as an MCP server.
+3. [Llama Guard & Prompt Guard (Meta, PurpleLlama)](https://github.com/meta-llama/PurpleLlama) - Open-weight safety classifiers: Llama Guard checks LLM inputs and outputs; Prompt Guard detects prompt injection and jailbreak attempts.
+4. [Vigil - LLM Prompt Injection Detection](https://github.com/deadbits/vigil-llm)
+5. [Lakera Guard](https://www.lakera.ai/) - Real-time AI security for prompt injection and data leakage.
+6. [Trylon Gateway](https://github.com/trylonai/gateway) - Self-hosted open-source AI firewall/proxy applying custom guardrails (prompt-injection defense, PII redaction).
+7. [Bifrost AI Gateway](https://github.com/maximhq/bifrost) - High-performance open-source AI gateway unifying 20+ LLM providers with governance and policy enforcement.
+8. [SUNGLASSES](https://github.com/sunglasses-dev/sunglasses) - Open source input firewall for AI agents that runs locally and scans text and files for prompt injection, credential leaks and data exfiltration with 1,554 patterns across 118 categories; it also runs as an MCP server.
 
 ## Attacks, Breaches & Incidents
 1. [Policy Puppetry: Universal Jailbreak Bypassing All Major LLMs (Apr 2025)](https://www.hiddenlayer.com/research/novel-universal-bypass-for-all-major-llms) - HiddenLayer disclosed a single transferable prompt that bypasses safety guardrails across OpenAI, Google, Anthropic, Meta, DeepSeek, and others.

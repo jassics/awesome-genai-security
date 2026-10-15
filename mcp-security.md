@@ -15,7 +15,8 @@ Model Context Protocol servers/clients: tool poisoning, auth, transport, and cre
 1. [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - Open standard for connecting agents to tools and data.
 2. [MCP Official Security Best Practices](https://modelcontextprotocol.io/specification/draft/basic/security_best_practices) - The spec's own guidance on confused deputy, token passthrough, and session hijacking.
 3. [OWASP: CheatSheet – A Practical Guide for Securely Using Third-Party MCP Servers 1.0](https://genai.owasp.org/resource/cheatsheet-a-practical-guide-for-securely-using-third-party-mcp-servers-1-0/)
-4. [SlowMist MCP Security Checklist](https://github.com/slowmist/MCP-Security-Checklist) - Practical checklist covering server, client, and transport-level MCP hardening.
+4. [OWASP: A Practical Guide for Secure MCP Server Development](https://genai.owasp.org/resource/a-practical-guide-for-secure-mcp-server-development/) - Companion to the cheatsheet above, covering how to build MCP servers securely.
+5. [SlowMist MCP Security Checklist](https://github.com/slowmist/MCP-Security-Checklist) - Practical checklist covering server, client, and transport-level MCP hardening.
 
 ## Papers & Articles
 1. [Pillar Security: MCP Security Research](https://www.pillar.security/blog/the-security-risks-of-model-context-protocol-mcp)

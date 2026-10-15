@@ -29,7 +29,7 @@ Cross-cutting material that doesn't belong to a single category — books, cours
 ## Table of Contents
 - [GenAI Security Categories](#genai-security-categories)
 - [AI Security Books](#ai-security-books)
-- [AI Security Videos](#ai-security-videos)
+- [AI Security Videos & Podcasts](#ai-security-videos--podcasts)
 - [Online Tutorials / Blogs / Presentations](#online-tutorials--blogs--presentations)
 - [Online Courses (Paid/Free)](#online-courses-paidfree)
 - [Study Plans, Roadmaps & Interview Prep](#study-plans-roadmaps--interview-prep)
@@ -44,26 +44,28 @@ Cross-cutting material that doesn't belong to a single category — books, cours
 ![GenAI security banner](awesome-genai-security-banner.png)
 
 ## AI Security Books
-1. [AI Value Creators](https://www.flipkart.com/ai-value-creators/p/itm84255392ef02e)
-2. [AI Engineering by Chip Huyen](https://www.flipkart.com/ai-engineering-building-applications-foundation-models-full-colour-edition-model-handbook-practical-guide/p/itm0b5326225ef19)
-3. [Designing Machine Learning Systems](https://www.flipkart.com/designing-machine-learning-systems/p/itm075f3337b432e)
-4. [Hands-On Large Language Models](https://www.flipkart.com/hands-on-large-language-models-understanding-generation/p/itm07bb6ede2a7b0)
-5. [Nexus by Yuval Noah Harari](https://www.flipkart.com/nexus/p/itm41a4d83d2cf64)
-6. [The Developer's Playbook for Large Language Model Security: Building Secure AI Applications by Steve Wilson](https://www.flipkart.com/developer-s-playbook-large-language-model-security/p/itm2633a103cffb8)
-7. [10 Best AI Security Books (Practical DevSecOps)](https://www.practical-devsecops.com/best-ai-security-books/)
-8. [AI Security E-book 101 (Practical DevSecOps, PDF)](https://www.practical-devsecops.com/wp-content/uploads/2025/11/AI-Security-E-book-101.pdf)
-9. [Red Teaming AI: A Field Manual for Attacking Intelligent Systems - Philip A. Dursey (No Starch, early access)](https://nostarch.com/red-teaming-AI)
-10. [Not with a Bug, But with a Sticker - Ram Shankar Siva Kumar & Hyrum Anderson](https://www.goodreads.com/book/show/63079484-not-with-a-bug-but-with-a-sticker)
-11. [Generative AI Security - Ken Huang, Yang Wang (Springer)](https://link.springer.com/book/10.1007/978-3-031-54252-7)
-12. [Adversarial AI Attacks, Mitigations, and Defense Strategies - John Sotiropoulos (Packt)](https://www.packtpub.com/en-us/product/adversarial-ai-attacks-mitigations-and-defense-strategies-9781801300568)
+1. [AI Engineering by Chip Huyen](https://www.oreilly.com/library/view/ai-engineering/9781098166298/)
+2. [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/)
+3. [Hands-On Large Language Models](https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/)
+4. [The Developer's Playbook for Large Language Model Security: Building Secure AI Applications by Steve Wilson](https://www.oreilly.com/library/view/the-developers-playbook/9781098162191/)
+5. [10 Best AI Security Books (Practical DevSecOps)](https://www.practical-devsecops.com/best-ai-security-books/)
+6. [AI Security E-book 101 (Practical DevSecOps, PDF)](https://www.practical-devsecops.com/wp-content/uploads/2025/11/AI-Security-E-book-101.pdf)
+7. [Red Teaming AI: A Field Manual for Attacking Intelligent Systems - Philip A. Dursey (No Starch, early access)](https://nostarch.com/red-teaming-AI)
+8. [Not with a Bug, But with a Sticker - Ram Shankar Siva Kumar & Hyrum Anderson](https://www.goodreads.com/book/show/63079484-not-with-a-bug-but-with-a-sticker)
+9. [Generative AI Security - Ken Huang, Yang Wang (Springer)](https://link.springer.com/book/10.1007/978-3-031-54252-7)
+10. [Adversarial AI Attacks, Mitigations, and Defense Strategies - John Sotiropoulos (Packt)](https://www.packtpub.com/en-us/product/adversarial-ai-attacks-mitigations-and-defense-strategies-9781801300568)
 
-## AI Security Videos
+## AI Security Videos & Podcasts
 1. [Intro to LLM Security - WhyLabs](https://www.youtube.com/watch?v=dj1H4g4YSlU)
 2. [OWASP Top 10 for LLM Applications Explained - OWASP](https://www.youtube.com/watch?v=engR9tYSsug)
 3. [Hacking LLMs and Prompt Injection - LiveOverflow](https://www.youtube.com/watch?v=Sv5OLj2nVAQ)
 4. [AI Red Teaming - DEFCON AI Village](https://www.youtube.com/watch?v=JCRoFMHjLng)
 5. [Securing LLM Applications - SANS Institute](https://www.youtube.com/watch?v=gcnWoR5eJQQ)
 6. [How Do Large Language Models Work? | LLM Architecture Explained](https://youtu.be/klcCPgbn3GM)
+
+### Podcasts
+1. [The MLSecOps Podcast](https://mlsecops.com/podcast) - Practitioner conversations on securing ML pipelines, LLM apps, and AI agents.
+2. [AI Security Podcast](https://www.aisecuritypodcast.com/) - Two former CISOs on securing AI systems and tracking AI-driven threats.
 
 More category-specific videos live on each [category page](#genai-security-categories) (e.g. RAG explainer under RAG Security, excessive-agency under Agents & Agentic AI).
 
@@ -76,6 +78,9 @@ General GenAI security tutorials and career material. Attack-specific blogs/arti
 4. [AI Security Interview Questions (Practical DevSecOps)](https://www.practical-devsecops.com/ai-security-interview-questions/)
 5. [Emerging AI Security Roles (Practical DevSecOps)](https://www.practical-devsecops.com/emerging-ai-security-roles/)
 6. [AI Security Engineer Roadmap (Practical DevSecOps)](https://www.practical-devsecops.com/ai-security-engineer-roadmap/)
+7. [AWS: The Generative AI Security Scoping Matrix](https://aws.amazon.com/ai/security/generative-ai-scoping-matrix/) - Frames security responsibilities across five generative-AI deployment scopes, from consumer apps to self-hosted models.
+8. [Azure AI Security Best Practices (Microsoft Learn)](https://learn.microsoft.com/en-us/azure/security/fundamentals/ai-security-best-practices) - Azure-specific guidance for securing AI workloads, data, and access.
+9. [Google Cloud: Security Best Practices for Generative AI Workloads](https://docs.cloud.google.com/docs/security/security-best-practices-genai) - GCP guidance covering architecture, agents, and application controls.
 
 ## Online Courses (Paid/Free)
 1. [Stanford CS-324: Large Language Models](https://stanford-cs324.github.io/winter2022/)
@@ -105,6 +110,7 @@ Structured paths for going from "interested in AI security" to job-ready.
 2. [GIAC AI Platform Security (GAIPS)](https://www.giac.org/certifications/ai-security-platform-security-gaips) - Hands-on (CyberLive) certification for auditing and securing GenAI applications, LLM pipelines, and agentic AI systems.
 3. [GIAC AI Security Automation Engineer (GASAE)](https://www.giac.org/certifications/ai-security-automation-engineer-gasae) - Validates using AI/automation across offensive, defensive, and cloud security operations.
 4. [ISC2 AI Security Certificate](https://www.isc2.org/landing/ai-security-skills) - On-demand course bundle covering AI fundamentals, AI risk management, secure-by-design, and global AI regulation.
+5. [IAPP Artificial Intelligence Governance Professional (AIGP)](https://iapp.org/certify/aigp) - Governance-focused certification covering AI risk management, compliance, and responsible AI program management.
 
 ## AI Red Teaming
 General red-teaming methodology and orgs. Category-specific red-team tools/guides (LLM, Agentic) live on their [category pages](#genai-security-categories).
@@ -117,10 +123,10 @@ General red-teaming methodology and orgs. Category-specific red-team tools/guide
 6. [OWASP GenAI Red Teaming Guide](https://genai.owasp.org/resource/genai-red-teaming-guide/) - Methodology for red teaming GenAI/LLM applications.
 
 ## GenAI Security Attacks, Breaches & Incidents
-Notable real-world incidents involving GenAI and LLM security, newest first. For ongoing tracking, see the [OWASP GenAI Exploit Round-up](https://genai.owasp.org/2026/04/14/owasp-genai-exploit-round-up-report-q1-2026/), which catalogs confirmed CVEs and exploits each quarter. Incidents are also cross-listed on the relevant [category page](#genai-security-categories) (e.g. MCP incidents under MCP Security).
+Notable real-world incidents involving GenAI and LLM security, newest first. For ongoing tracking, see the quarterly [OWASP GenAI Exploit Round-up](https://genai.owasp.org/blog/) on the OWASP GenAI blog and the [AI Incident Database](https://incidentdatabase.ai/). Incidents are also cross-listed on the relevant [category page](#genai-security-categories) (e.g. MCP incidents under MCP Security).
 
 1. [Hugging Face Breached by an Autonomous AI Agent (Jul 2026)](https://huggingface.co/blog/security-incident-july-2026) - An agentic system escaped a public security benchmark, abused two code-execution paths in Hugging Face's dataset processing, and reached production infrastructure over a weekend. OpenAI attributed it to its own pre-release models running unsupervised. Internal datasets and service credentials were accessed; public models, datasets, and Spaces were verified untampered. The first known case where AI capability evaluation caused a real breach.
-2. [JADEPUFFER: First Documented Agentic Ransomware (Jul 2026)](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion) - Sysdig traced a full extortion chain driven end-to-end by an LLM: Langflow RCE (CVE-2025-3248) for entry, credential harvesting, lateral movement, then encryption and destruction of 1,342 config items. The agent recovered from a failed login in 31 seconds by rewriting its own payload. The AES key was printed to stdout and never persisted — paying the ransom recovers nothing.
+2. [JADEPUFFER: First Documented Agentic Ransomware (Jul 2026)](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion) - Sysdig traced a full extortion chain driven end-to-end by an LLM: Langflow RCE (CVE-2025-3248) for entry, credential harvesting, lateral movement, then encryption and destruction of 1,342 config items. The agent recovered from a failed login in 31 seconds by rewriting its own payload. The AES key was printed to stdout and never persisted — paying the ransom recovers nothing. See also the follow-up, [JADEPUFFER evolves: ransomware built to destroy AI models (Jul 20, 2026)](https://www.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models).
 3. [Cursor Terminal Allowlist Bypass (CVE-2026-22708, Jul 2026)](https://github.com/cursor/cursor/security/advisories/GHSA-82wg-qcm4-fp2w) - Shell built-ins like `export` bypassed Cursor's Auto-Run allowlist, letting indirect prompt injection poison the agent's environment and reach zero-click RCE. Fixed in 2.3.
 4. [Vercel Breached via a Compromised Third-Party AI Tool (Apr 2026)](https://vercel.com/kb/bulletin/vercel-april-2026-security-incident) - Attackers pivoted from an infostealer infection at Context.ai through an employee's OAuth grant into Vercel's internal systems, enumerating and decrypting environment variables. A worked example of shadow-AI and OAuth sprawl as an enterprise attack path.
 5. [Zenity Labs: Zero-Click Hijacking of Agentic Browsers (Mar 2026)](https://cyberscoop.com/agentic-ai-browsers-allow-hijacking-zenity-labs-comet/) - A vulnerability family in Perplexity Comet allowing zero-click agent hijack, including takeover of a signed-in password manager, via indirect prompt injection. See also [Brave's earlier Comet research](https://brave.com/blog/comet-prompt-injection/).
@@ -154,17 +160,19 @@ Notable real-world incidents involving GenAI and LLM security, newest first. For
 1. [EU AI Act](https://artificialintelligenceact.eu/) - EU regulation on artificial intelligence.
 2. [NIST AI Risk Management Framework (AI RMF)](https://www.nist.gov/itl/ai-risk-management-framework) - NIST's voluntary framework for managing AI risks.
 3. [ISO/IEC 42001:2023 - AI Management System Standard](https://www.iso.org/standard/81230.html)
-4. [U.S. AI Executive Order (2025): Removing Barriers to American Leadership in AI](https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence) - The Trump administration's Jan 2025 EO; it revoked Biden's [EO 14110 (2023)](https://en.wikipedia.org/wiki/Executive_Order_14110) on Safe, Secure & Trustworthy AI.
-5. [India AI Governance Guidelines (IndiaAI / MeitY)](https://www.indiaai.gov.in/) - India's national AI strategy and governance guidance.
-6. [Singapore Model AI Governance Framework](https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework)
-7. [UK - International AI Safety Report](https://www.gov.uk/government/publications/international-ai-safety-report-2025) - Frontier AI risk assessment led by Yoshua Bengio.
+4. [ISO/IEC 23894:2023 - AI Guidance on Risk Management](https://www.iso.org/standard/77304.html)
+5. [U.S. AI Executive Order (2025): Removing Barriers to American Leadership in AI](https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence) - The Trump administration's Jan 2025 EO; it revoked Biden's [EO 14110 (2023)](https://en.wikipedia.org/wiki/Executive_Order_14110) on Safe, Secure & Trustworthy AI.
+6. [India AI Governance Guidelines (IndiaAI / MeitY)](https://www.indiaai.gov.in/) - India's national AI strategy and governance guidance.
+7. [Singapore Model AI Governance Framework](https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework)
+8. [UK - International AI Safety Report](https://www.gov.uk/government/publications/international-ai-safety-report-2025) - Frontier AI risk assessment led by Yoshua Bengio.
 
 ## Newsletters & Communities
 1. [OWASP GenAI Slack Channel](https://owasp.slack.com/) - Join #project-top10-for-llm channel.
 2. [AI Village (DEF CON)](https://aivillage.org/) - Community focused on AI security research.
 3. [MLSecOps Community](https://mlsecops.com/) - Community for ML security operations.
 4. [The AI Security Newsletter by Ken Huang](https://www.linkedin.com/newsletters/ai-security-newsletter-7153297736498069504/)
-5. [Protect AI (now part of Palo Alto Networks)](https://protectai.com/) - Blog content now folded into [Palo Alto Networks' AI Security blog](https://www.paloaltonetworks.com/blog/ai-security/).
+5. [Unsupervised Learning by Daniel Miessler](https://newsletter.danielmiessler.com/) - Weekly analysis at the intersection of security, technology, and AI.
+6. [Protect AI (now part of Palo Alto Networks)](https://protectai.com/) - Blog content now folded into [Palo Alto Networks' AI Security blog](https://www.paloaltonetworks.com/blog/ai-security/).
 
 ## Contributing
 Found a great paper, tool, course, CTF, or incident writeup on GenAI, LLM, RAG, MCP, or agentic AI security? Read [CONTRIBUTING.md](CONTRIBUTING.md) and open a pull request. Small additions are very welcome — add category-specific resources to the right [category page](#genai-security-categories); cross-cutting resources (books, courses, incidents, regulation) go in this README.
@@ -174,7 +182,7 @@ Thanks to everyone who helps keep this list current. Your name could be next —
 
 *   [Sanjeev Jaiswal](https://github.com/jassics) - maintainer
 *   [mldangelo](https://github.com/mldangelo) - promptfoo
-*   Aj7ay7 - Practical DevSecOps CAISP certification
+*   [Aj7ay7](https://github.com/Aj7ay7) - Practical DevSecOps CAISP certification
 *   [anviren](https://github.com/anviren) - Omega Walls
 *   [kantorcodes](https://github.com/kantorcodes) - HOL Guard
 *   [awdemos](https://github.com/awdemos) - Redcells

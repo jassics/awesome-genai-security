@@ -13,9 +13,10 @@ Retrieval pipeline risk: vector-DB access control, embedding/index poisoning, an
 ## Papers & Articles
 1. [Riding the RAG Trail: Access, Permissions and Context](https://www.lasso.security/blog/riding-the-rag-trail-access-permissions-and-context)
 2. [Securing Risks with RAG Architectures](https://ironcorelabs.com/security-risks-rag/)
-3. [Mitigating Security Risks in Retrieval Augmented Generation (RAG)](https://cloudsecurityalliance.org/blog/2023/11/22/mitigating-security-risks-in-retrieval-augmented-generation-rag-llm-applications#)
+3. [Mitigating Security Risks in Retrieval Augmented Generation (RAG)](https://cloudsecurityalliance.org/blog/2023/11/22/mitigating-security-risks-in-retrieval-augmented-generation-rag-llm-applications)
 4. [RAG: The Essential Guide](https://www.nightfall.ai/ai-security-101/retrieval-augmented-generation-rag)
 5. [RAG Explained: Retrieval Augmented Generation in AI (video)](https://youtu.be/97OwDxvWie8)
+6. [PoisonedRAG: Knowledge Corruption Attacks to RAG (Zou et al., 2024)](https://arxiv.org/abs/2402.07867) - Shows how a few poisoned documents in the knowledge base can steer the LLM toward attacker-chosen answers.
 
 ## Tools
 1. [Vectra AI](https://github.com/deepset-ai/haystack) via [Haystack](https://haystack.deepset.ai/) - Open-source RAG framework with document-level access-control support to prevent permission bleed through retrieval.

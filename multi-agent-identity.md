@@ -12,7 +12,7 @@ Trust between agents: delegated identity, agent-to-agent authN/authZ, and multi-
 ## Standards & Frameworks
 1. [CSA MAESTRO - Agentic AI Threat Modeling Framework](https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro) - Seven-layer threat modeling framework with explicit agent-to-agent and cross-layer trust boundaries; the most mature reference for this category today.
 2. [OWASP Agent Control Standard (ACS)](https://genai.owasp.org/resource/agent-control-standard-acs/) - Open standard for agent transparency: middleware hooks and declarative, runtime-enforced safety policies portable across agent frameworks, including inter-agent delegation.
-3. [OWASP Agentic Security Initiative](https://genai.owasp.org/initiatives/#agentic) - Includes multi-agent threat modeling guidance alongside single-agent threats.
+3. [OWASP Agentic Security Initiative](https://genai.owasp.org/initiatives/agentic-security-initiative/) - Includes multi-agent threat modeling guidance alongside single-agent threats.
 
 ## Papers & Articles
 1. [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) and the [Agent2Agent (A2A) Protocol](https://a2a-protocol.org/) - The two emerging interop standards whose auth models define most current agent-identity attack surface.

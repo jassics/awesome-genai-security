@@ -18,7 +18,7 @@ Single-agent autonomy risk: excessive agency, memory poisoning, planning/tool-us
 2. [A Practical Guide to Building Agents](https://platform.openai.com/docs/guides/agents) - OpenAI's guidance on agent design and orchestration.
 3. [ReAct: Reasoning + Acting (Yao et al., 2023)](https://arxiv.org/abs/2210.03629) - The reason-and-act loop underpinning tool-using agents.
 4. [Chain-of-Thought Prompting (Wei et al., 2022)](https://arxiv.org/abs/2201.11903) - The reasoning foundation behind planning and task decomposition.
-5. [Awesome Agentic Engineering](https://github.com/natnew/Awesome-Agentic-Engineering) - A reference stack for production-grade agentic systems.
+5. [Awesome Agentic Engineering](https://github.com/jordimas/awesome-agentic-engineering) - Curated reference of practical resources for agentic engineering: architectures, frameworks, memory, and evaluation.
 6. [LangGraph](https://langchain-ai.github.io/langgraph/) - Graph-based orchestration for stateful, multi-actor agents.
 7. [Microsoft AutoGen](https://microsoft.github.io/autogen/) - Multi-agent conversation framework.
 8. [CrewAI](https://github.com/crewAIInc/crewAI) - Role-based multi-agent orchestration.
@@ -30,15 +30,22 @@ Single-agent autonomy risk: excessive agency, memory poisoning, planning/tool-us
 ## Papers & Standards
 1. [OWASP Agentic AI Top 10](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
 2. [OWASP Securing Agentic Applications Guide 1.0](https://genai.owasp.org/resource/securing-agentic-applications-guide-1-0/) - Reference architecture and controls for building secure agentic apps.
-3. [OWASP Agentic Security Initiative](https://genai.owasp.org/initiatives/#agentic) - Threats & mitigations, multi-agent threat modeling, and reference guides.
-4. [Agentic Security Risks - OWASP](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/) - Threats and mitigations reference for agentic applications.
-5. [Microsoft: Zero Trust for AI (Tools & Guidance)](https://www.microsoft.com/en-us/security/blog/2026/03/19/new-tools-and-guidance-announcing-zero-trust-for-ai/) - Applying Zero Trust principles to AI agents and workloads.
-6. [Vulnerable Autonomous Agents Threat Model](https://github.com/jsotiro/ThreatModels) - LLM threat models for autonomous agents.
-7. [Top 10 Agentic AI Security Risks - Key Threats and Mitigation Strategies (PDF)](https://46710127.fs1.hubspotusercontent-na2.net/hubfs/46710127/Documents/Top%2010%20Agentic%20AI%20Security%20Risks-Key%20Threats%20and%20Mitigation%20Strategies.pdf) - Industry threat/mitigation reference.
-8. [OWASP: Memory as Attack Surface - Memory & Context Poisoning in Agentic Applications](https://genai.owasp.org/2026/05/13/memory-is-a-feature-it-is-also-an-attack-surface/) - ASI06 deep dive on agent memory as a persistent attack surface.
-9. [The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) - Private data + untrusted content + exfiltration = a data leak waiting to happen.
-10. [Imprompter: Tricking LLM Agents into Improper Tool Use](https://imprompter.ai/) - Attack demonstration against tool-using agents.
-11. [Excessive Agency in AI: Hidden Security Risk (video)](https://youtu.be/o4TEomdkpCw)
+3. [OWASP State of Agentic AI Security and Governance](https://genai.owasp.org/resource/state-of-agentic-ai-security-and-governance/) - Landscape view of securing and governing autonomous AI systems.
+4. [OWASP Agentic Security Initiative](https://genai.owasp.org/initiatives/agentic-security-initiative/) - Threats & mitigations, multi-agent threat modeling, and reference guides.
+5. [Agentic Security Risks - OWASP](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/) - Threats and mitigations reference for agentic applications.
+6. [Microsoft: Zero Trust for AI (Tools & Guidance)](https://www.microsoft.com/en-us/security/blog/2026/03/19/new-tools-and-guidance-announcing-zero-trust-for-ai/) - Applying Zero Trust principles to AI agents and workloads. See also the [Aug 2026 follow-up](https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/).
+7. [Vulnerable Autonomous Agents Threat Model](https://github.com/jsotiro/ThreatModels) - LLM threat models for autonomous agents.
+8. [Top 10 Agentic AI Security Risks - Key Threats and Mitigation Strategies (Precize)](https://www.precize.ai/post/top-10-agentic-ai-security-risks-key-threats-and-mitigation-strategies) - Industry threat/mitigation reference.
+9. [OWASP: Memory as Attack Surface - Memory & Context Poisoning in Agentic Applications](https://genai.owasp.org/2026/05/13/memory-is-a-feature-it-is-also-an-attack-surface/) - ASI06 deep dive on agent memory as a persistent attack surface.
+10. [The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) - Private data + untrusted content + exfiltration = a data leak waiting to happen.
+11. [Imprompter: Tricking LLM Agents into Improper Tool Use](https://imprompter.ai/) - Attack demonstration against tool-using agents.
+12. [Excessive Agency in AI: Hidden Security Risk (video)](https://youtu.be/o4TEomdkpCw)
+13. [AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents (Debenedetti et al., 2024)](https://arxiv.org/abs/2406.13352) - Benchmark environment for prompt-injection attacks and defenses on agents.
+14. [MMA-SafetyBench: A Benchmark for Multimodal Agent Safety Evaluation (Wang et al., 2026)](https://arxiv.org/abs/2610.19384) - 1,083 adversarial trajectories demonstrating visual semantic hijacking of GUI-grounded agents, with attack success rates up to 88%.
+15. [Encrypted Skills Can Become New Security Exploits If AI Agents Know How to Decipher (Chen et al., 2026)](https://arxiv.org/abs/2610.18262) - Ciphered Skill Injection: encoded instructions hidden in third-party agent skill files that agents decode and follow, rarely flagged by skill scanners.
+16. [An Exploration of Attacks on AI Agent Systems (Qiao et al., 2026)](https://arxiv.org/abs/2610.12524) - Prompt injection across direct inputs and inter-agent communication, including cross-agent infections in multi-agent setups.
+17. [Persona Guardrail: A Production-Grade Defense Framework for Agentic Systems (Pal et al., 2026)](https://arxiv.org/abs/2610.03434) - Runtime defense enforcing explicit functional boundaries via allowlist/blocklist validation, plus the PAGE guardrail benchmark.
+18. [Agentic AI Security: Threats, Defenses, Evaluation, and Open Challenges (Chhabra et al., 2025)](https://arxiv.org/abs/2510.23883) - Comprehensive survey of attacks, defenses, and evaluation for LLM-based agentic systems.
 
 ## Tools
 1. [Agentic Radar (SPLX)](https://github.com/splx-ai/agentic-radar) - Security scanner that maps and analyzes agentic workflows.
