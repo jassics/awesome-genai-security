@@ -26,6 +26,7 @@ Model Context Protocol servers/clients: tool poisoning, auth, transport, and cre
 5. [Awesome MCP Security](https://github.com/Puliczek/awesome-mcp-security) - Curated, continuously-updated list of MCP-specific papers, incidents, and tooling if you need to go deeper than this page.
 6. [MCP Prompt Injection at Connect: Lab + Fixes](https://webofmike.com/mcp-discovery-prompt-injection/) - Reproducible lab showing a hostile MCP server's `instructions` field (sent at `initialize`/`server/discover`) reaching the agent's system prompt before any tool call, including cross-caller poisoning through a `cacheScope: public` cache, with isolation, size-cap, cache-binding, and pinning controls; cites a registry scan in which 5,462 of 8,235 live servers sent `instructions`.
 7. [MCP Tool Poisoning: A Name Allowlist Is Not Enough](https://webofmike.com/mcp-tool-poisoning-pin-definitions/) - Docker demo of a mid-session tool-description rug pull (modeled on the Deadbugz campaign) that a tool-name allowlist passes through, and of pinning a digest of each tool's name, description, and inputSchema to reject it.
+8. [Fix MCP OAuth 401 and 403 Errors (Praesidia)](https://praesidia.ai/blog/mcp-oauth-troubleshooting-401-403) - Technical guide with a synthetic loopback HTTP teaching fixture for invalid-token and insufficient-scope responses; not an MCP server, OAuth implementation, or production security test.
 
 ## Tools
 1. [Invariant Labs: MCP Security Notification Tool (mcp-scan)](https://github.com/invariantlabs-ai/mcp-scan)
