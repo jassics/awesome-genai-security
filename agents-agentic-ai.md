@@ -46,6 +46,7 @@ Single-agent autonomy risk: excessive agency, memory poisoning, planning/tool-us
 16. [An Exploration of Attacks on AI Agent Systems (Qiao et al., 2026)](https://arxiv.org/abs/2610.12524) - Prompt injection across direct inputs and inter-agent communication, including cross-agent infections in multi-agent setups.
 17. [Persona Guardrail: A Production-Grade Defense Framework for Agentic Systems (Pal et al., 2026)](https://arxiv.org/abs/2610.03434) - Runtime defense enforcing explicit functional boundaries via allowlist/blocklist validation, plus the PAGE guardrail benchmark.
 18. [Agentic AI Security: Threats, Defenses, Evaluation, and Open Challenges (Chhabra et al., 2025)](https://arxiv.org/abs/2510.23883) - Comprehensive survey of attacks, defenses, and evaluation for LLM-based agentic systems.
+19. [OWASP AI Vulnerability Scoring System (AIVSS)](https://aivss.owasp.org/) - OWASP methodology for rating the severity and exploitability of vulnerabilities in agentic AI systems, with an open-source calculator; v0.8 scores the OWASP Agentic AI Core Security Risks.
 
 ## Tools
 1. [Agentic Radar (SPLX)](https://github.com/splx-ai/agentic-radar) - Security scanner that maps and analyzes agentic workflows.
