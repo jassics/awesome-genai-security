@@ -191,6 +191,7 @@ Thanks to everyone who helps keep this list current. Your name could be next —
 *   [roli-lpci](https://github.com/roli-lpci) - hermes-jailbench
 *   [azrollin](https://github.com/azrollin) - SUNGLASSES
 *   [themsquared](https://github.com/themsquared) - MCP security articles
+*   [ErcinDedeoglu](https://github.com/ErcinDedeoglu) - llm-redteam-banking-checklist
 
 ---
 
