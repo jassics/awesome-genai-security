@@ -69,6 +69,7 @@ Core model- and prompt-level risk: jailbreaks, prompt injection, model theft, tr
 8. [Sentinel Scan](https://github.com/Ventrova/sentinel-scan-cli) - CLI for authorized LLM red-team audits: prompt injection, jailbreak, and data-leak probes with a scored report.
 9. [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench) - Zero-LLM deterministic jailbreak regression benchmark: repeatable battery of known-pattern attacks against an LLM endpoint, scored refusal/partial/compliance; single-turn, responsible-use.
 10. [PentestGPT - Automated Penetration Testing (GreyDGL)](https://github.com/GreyDGL/PentestGPT) - LLM-empowered agent that automates and guides traditional penetration-testing workflows - AI as the attacker's tool rather than the target; see the [accompanying paper](https://arxiv.org/abs/2308.06782).
+11. [Red Team Model Router](https://unst33r.si/use-cases/ai-red-teaming) - OpenAI-compatible API serving abliterated and reduced-refusal open models for running red-team harnesses against authorized targets.
 
 ### Guardrails & Firewalls
 1. [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Input/output validation for LLMs.
