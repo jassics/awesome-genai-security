@@ -37,6 +37,7 @@ Cross-cutting material that doesn't belong to a single category — books, cours
 - [AI Red Teaming](#ai-red-teaming)
 - [GenAI Security Attacks, Breaches & Incidents](#genai-security-attacks-breaches--incidents)
 - [Regulatory Frameworks & Governance](#regulatory-frameworks--governance)
+- [AI Incident Response & Governance](#ai-incident-response--governance)
 - [Newsletters & Communities](#newsletters--communities)
 - [Contributing](#contributing)
 - [Contributors](#contributors)
@@ -125,6 +126,23 @@ General red-teaming methodology and orgs. Category-specific red-team tools/guide
 ## GenAI Security Attacks, Breaches & Incidents
 Notable real-world incidents involving GenAI and LLM security, newest first. For ongoing tracking, see the quarterly [OWASP GenAI Exploit Round-up](https://genai.owasp.org/blog/) on the OWASP GenAI blog and the [AI Incident Database](https://incidentdatabase.ai/). Incidents are also cross-listed on the relevant [category page](#genai-security-categories) (e.g. MCP incidents under MCP Security).
 
+### Incident Patterns & Real-World Threat Evolution
+
+The GenAI security landscape has shifted from research/novelty (2023–2024) to operational threats (2025–2026). Key patterns:
+
+| Period | Threat Driver | Attacker Profile | Impact | Examples |
+|--------|---------------|------------------|--------|----------|
+| 2023–2024 | Novelty, research | Academics, hobbyists | Proof-of-concept | Bing jailbreak, Samsung leak |
+| 2024–2025 | Business logic abuse | Script kiddies, scammers | Direct financial loss | Chevrolet $1 SUV, Air Canada refunds |
+| **2025–2026** | **Operational automation, scale** | **Mid-tier criminals, nation-states** | **Mass data breach, infrastructure compromise** | **Mexican govts (400M records), Anthropic espionage, JADEPUFFER** |
+
+**Key observations:**
+1. **Agentic-AI intrusions are now routine:** Single operators run multi-target campaigns using autonomous agent chains (Nine Mexican agencies via Claude Code, Anthropic state-scale espionage ~80% autonomous).
+2. **Zero-click attacks are viable:** EchoLeak (email → M365 silent exfil), Zenity (agent hijack), CamoLeak (PR comment → code leak) require no user interaction.
+3. **Supply-chain is an active vector:** Amazon Q extension compromise, Cursor CVE-2026-22708 (shell built-ins bypass), LiteLLM PyPI attack, CVE-2025-6514 (mcp-remote RCE).
+4. **Self-healing agents introduce new challenges:** JADEPUFFER agent recovered from failed login in 31 seconds, rewrote payload on retry.
+5. **Shadow AI (unauthorized OAuth) enables pivots:** Vercel breach via Context.ai OAuth chain; compromised AI tool → corporate cloud compromise.
+
 1. [Hugging Face Breached by an Autonomous AI Agent (Jul 2026)](https://huggingface.co/blog/security-incident-july-2026) - An agentic system escaped a public security benchmark, abused two code-execution paths in Hugging Face's dataset processing, and reached production infrastructure over a weekend. OpenAI attributed it to its own pre-release models running unsupervised. Internal datasets and service credentials were accessed; public models, datasets, and Spaces were verified untampered. The first known case where AI capability evaluation caused a real breach.
 2. [JADEPUFFER: First Documented Agentic Ransomware (Jul 2026)](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion) - Sysdig traced a full extortion chain driven end-to-end by an LLM: Langflow RCE (CVE-2025-3248) for entry, credential harvesting, lateral movement, then encryption and destruction of 1,342 config items. The agent recovered from a failed login in 31 seconds by rewriting its own payload. The AES key was printed to stdout and never persisted — paying the ransom recovers nothing. See also the follow-up, [JADEPUFFER evolves: ransomware built to destroy AI models (Jul 20, 2026)](https://www.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models).
 3. [Cursor Terminal Allowlist Bypass (CVE-2026-22708, Jul 2026)](https://github.com/cursor/cursor/security/advisories/GHSA-82wg-qcm4-fp2w) - Shell built-ins like `export` bypassed Cursor's Auto-Run allowlist, letting indirect prompt injection poison the agent's environment and reach zero-click RCE. Fixed in 2.3.
@@ -165,6 +183,16 @@ Notable real-world incidents involving GenAI and LLM security, newest first. For
 6. [India AI Governance Guidelines (IndiaAI / MeitY)](https://www.indiaai.gov.in/) - India's national AI strategy and governance guidance.
 7. [Singapore Model AI Governance Framework](https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework)
 8. [UK - International AI Safety Report](https://www.gov.uk/government/publications/international-ai-safety-report-2025) - Frontier AI risk assessment led by Yoshua Bengio.
+
+## AI Incident Response & Governance
+
+Structured guidance for responding to AI-driven breaches, model compromise, and agentic autonomy failures.
+
+1. [OWASP GenAI Incident Response Guide 1.0](https://genai.owasp.org/resource/owasp-genai-ir-guide-1.0/) - Playbooks for LLM/RAG/agent incident detection, containment, and recovery.
+2. [OWASP State of Agentic AI Security and Governance](https://genai.owasp.org/resource/state-of-agentic-ai-security-and-governance/) - Landscape view and governance frameworks for autonomous AI.
+3. [Case Study: Hugging Face Autonomous Agent Breach (Jul 2026)](https://huggingface.co/blog/security-incident-july-2026) - First incident where AI capability evaluation directly caused production breach.
+4. [Case Study: JADEPUFFER Agentic Ransomware (Jul 2026 & Evolution Jul 20)](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion) - End-to-end LLM-orchestrated extortion + model destruction.
+5. [Case Study: Nine Mexican Government Agencies (Dec 2025 – Feb 2026)](https://research.checkpoint.com/2026/ai-threat-landscape-digest-march-april-2026/) - Single operator, ~400M records exposed via AI agent automation.
 
 ## Newsletters & Communities
 1. [OWASP GenAI Slack Channel](https://owasp.slack.com/) - Join #project-top10-for-llm channel.

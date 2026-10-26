@@ -9,6 +9,8 @@ Model Context Protocol servers/clients: tool poisoning, auth, transport, and cre
 - [Papers & Articles](#papers--articles)
 - [Tools](#tools)
 - [Attacks, Breaches & Incidents](#attacks-breaches--incidents)
+  - [IDE-Agent MCP Integration Risks](#ide-agent-mcp-integration-risks)
+  - [MCP as Supply-Chain Attack Vector](#mcp-as-supply-chain-attack-vector)
 - [Practice & CTFs](#practice--ctfs)
 
 ## Standards & Specs
@@ -36,6 +38,42 @@ Model Context Protocol servers/clients: tool poisoning, auth, transport, and cre
 6. [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first security harness that intercepts tool calls before files change or network is contacted; scans MCP servers, skills, and plugins for supply-chain threats.
 
 ## Attacks, Breaches & Incidents
+
+### IDE-Agent MCP Integration Risks
+
+MCP servers integrated into code editors and coding agents introduce a new attack surface. Recent CVEs:
+
+1. [Cursor Terminal Allowlist Bypass (CVE-2026-22708, Jul 2026, CVSS 9.9)](https://github.com/cursor/cursor/security/advisories/GHSA-82wg-qcm4-fp2w) - Shell built-ins like `export` and `function` bypass Cursor's Auto-Run allowlist, allowing indirect prompt injection to reach zero-click RCE. Implications: MCP tool-use restrictions can be circumvented by abusing language features.
+2. [Amazon Q VS Code Extension Compromised (Jul 2025, 964k+ installs)](https://www.bleepingcomputer.com/news/security/amazon-ai-coding-agent-hacked-to-inject-data-wiping-commands/) - Malicious prompt injected into official Microsoft marketplace extension, instructing agent to wipe files and delete AWS resources. Shows supply-chain risk: official channels can be compromised.
+
+**Defense implications:**
+- IDE-agents need separate thread & capability model from coding LLMs.
+- Tool allowlists must account for shell language features, not just command names.
+- Extension/MCP server provenance should be verified (signed manifests, registry pinning).
+
+### MCP as Supply-Chain Attack Vector
+
+MCP registries, skill repositories, and plugin ecosystems are now confirmed attack surface. A single compromised or malicious MCP server can:
+
+- **Exfiltrate secrets** from agent environment variables and memory
+- **Execute code** on the client machine (CVE-2025-6514 demonstrated CVSS 9.6 remote RCE)
+- **Modify tool behavior** mid-session (Deadbugz campaign: tool-definition rug pull)
+- **Poison inter-agent communication** (MCP `instructions` field reaches system prompt before any tool call)
+
+**Real-world examples:**
+- CVE-2025-6514 (mcp-remote RCE): Attacker-controlled server executes arbitrary code on client.
+- Deadbugz campaign: Hostile MCP server swaps tool definitions after initial connection.
+- MCP prompt injection at `initialize`: Server's `instructions` field + `cacheScope: public` reaches agent system prompt, bypassing tool-boundary isolation.
+
+**Mitigations (to implement):**
+- **Registry pinning:** SHA256 digest of server manifest in agent config; reject servers not matching.
+- **Network isolation:** Run MCP servers in locked-down containers (ToolHive, mcp-context-protector).
+- **Tool-definition immutability:** Bind tool name, description, and inputSchema to digest; reject mid-session changes.
+- **Allowlist server vendors, not just tool names:** Restrict to known-safe registries (Anthropic, OpenAI, etc.).
+- **Inspect `instructions` field:** Validate it doesn't contain system-prompt jailbreak attempts.
+
+### All Incidents
+
 1. [CVE-2025-6514: Critical RCE in mcp-remote (Jul 2025)](https://jfrog.com/blog/2025-6514-critical-mcp-remote-rce-vulnerability/) - A malicious MCP server could achieve full remote code execution (CVSS 9.6) on clients running mcp-remote; the first real-world RCE against an MCP client.
 
 See also [GenAI Security Attacks, Breaches & Incidents](README.md#genai-security-attacks-breaches--incidents) for the full cross-category incident timeline.

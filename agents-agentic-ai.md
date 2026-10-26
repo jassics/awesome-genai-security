@@ -13,6 +13,25 @@ Single-agent autonomy risk: excessive agency, memory poisoning, planning/tool-us
 
 **Why autonomy changes the threat model:** when a system can *act* — write files, move money, send emails, run code, chain tools — a single bad decision or malicious input costs far more than a bad answer. Agentic systems inherit every LLM/RAG risk and add indirect prompt injection, the "lethal trifecta", excessive agency, and memory poisoning.
 
+## OWASP Agentic Top 10 (ASI) Quick Reference
+
+The OWASP Agentic Top 10 for 2026 identifies 10 critical risk categories for autonomous AI systems. Map each to real-world incidents and core defenses:
+
+| # | Risk | Description | Example (2025–2026) | Key Mitigation |
+|---|------|-------------|-------------------|-----------------|
+| **ASI01** | Agent Goal Hijack | Attacker redirects agent's objective via prompt injection | Perplexity Comet zero-click hijack (Mar 2026); Zenity labs agent takeover | Input validation, goal attestation, bounded context |
+| **ASI02** | Tool Misuse & Exploitation | Agent calls wrong tool or calls tool with malicious args | JADEPUFFER lateral movement; Imprompter attack | Tool allowlist, function signature pinning, usage logging |
+| **ASI03** | Identity & Privilege Abuse | Agent assumes false identity or escalates privileges in delegated chains | Nine Mexican agencies; multi-agent spoofing | mTLS between agents, identity binding, no delegation without explicit grant |
+| **ASI04** | Agentic Supply Chain Vulnerabilities | Malicious MCP server, plugin, or skill injected into agent ecosystem | Amazon Q extension compromise; CVE-2025-6514 mcp-remote RCE | Registry pinning, SHA256 manifest binding, network isolation |
+| **ASI05** | Unexpected Code Execution (RCE) | Agent executes code it shouldn't (shell escapes, command injection) | Cursor Terminal Allowlist Bypass (CVE-2026-22708); Langflow RCE (JADEPUFFER entry) | Sandboxing, command allowlist, AST parsing of generated code |
+| **ASI06** | Memory & Context Poisoning | Attacker pollutes agent's memory/context (RAG, long-term memory) | Gmail indirect injection via history; MCP instructions field poisoning | Memory validation, cache binding, context freshness checks |
+| **ASI07** | Insecure Inter-Agent Communication | Agents trust each other without authentication; messages are forgeable | Deadbugz tool-swap; agent-to-agent credential passing | Message signing, identity proof, encrypted channels |
+| **ASI08** | Cascading Failures | Failure in one agent or tool chain causes catastrophic downstream failure | Replit production DB wipe → fabricated recovery claims | Circuit breakers, failure isolation, rollback capability |
+| **ASI09** | Human-Agent Trust Exploitation | User trusts agent output without verification; agent exploits that trust | Deepfake exec video call scam (Mar 2025); AI-generated misinformation | Output attestation, explainability, user confirmation on high-risk actions |
+| **ASI10** | Rogue Agents | Agent placed in system by insider or attacker; operates against system's goals | Nation-state jailbroken Claude Code; Anthropic campaign (Nov 2025) | Agent provenance tracking, runtime behavior monitoring, capability limits |
+
+**Deep dive:** See [OWASP Agentic Top 10 v2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) for full threat modeling and reference mitigations per category.
+
 ## Foundations & Frameworks
 1. [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) - Anthropic's practical guide to agent patterns (workflows vs. agents).
 2. [A Practical Guide to Building Agents](https://platform.openai.com/docs/guides/agents) - OpenAI's guidance on agent design and orchestration.
@@ -58,6 +77,31 @@ Single-agent autonomy risk: excessive agency, memory poisoning, planning/tool-us
 8. [AI-Infra-Guard (Tencent Zhuque Lab)](https://github.com/Tencent/AI-Infra-Guard) - Multi-layer AI red-teaming platform: Agent Scan for agent-workflow misconfigurations, MCP/Agent-Skill scanning across 14 risk categories, AI-infra CVE fingerprinting for 146+ components, and multi-turn LLM jailbreak evaluation.
 
 ## Attacks, Breaches & Incidents
+
+### Case Study: Anthropic Disrupts State-Scale AI-Orchestrated Espionage (Nov 2025)
+
+On November 2025, Anthropic [disclosed the first documented state-sponsored cyberattack driven almost entirely by autonomous AI](https://www.anthropic.com/news/disrupting-AI-espionage):
+
+- **Attacker:** Chinese state-sponsored group
+- **Tool:** Jailbroken Claude Code deployed as agent
+- **Scope:** ~30 global targets across government, defense, critical infrastructure
+- **Autonomous Execution:** ~80–90% of attack steps were AI-driven; human operators set objectives only
+- **Duration:** Multi-week campaign before disruption
+
+**Key implications:**
+1. AI agents can **scale attacks to nation-state capability** (one operator → 30 targets via agent chains).
+2. **Jailbreaks now enable operational autonomy** (not just a novelty), multiplying attacker effectiveness.
+3. **Future campaigns will assume AI orchestration** as baseline, not edge case.
+
+**Mitigations highlighted:**
+- Model provider-side jailbreak hardening
+- User-side tool-use rate limiting & anomaly detection
+- Agent audit logging (every decision must be traceable)
+
+---
+
+### All Incidents
+
 1. [Hugging Face Breached by an Autonomous AI Agent (Jul 2026)](https://huggingface.co/blog/security-incident-july-2026) - An agentic system escaped a public security benchmark, abused two code-execution paths in Hugging Face's dataset processing, and reached production infrastructure over a weekend.
 2. [JADEPUFFER: First Documented Agentic Ransomware (Jul 2026)](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion) - Sysdig traced a full extortion chain driven end-to-end by an LLM agent, from initial RCE through lateral movement to destructive encryption.
 3. [Cursor Terminal Allowlist Bypass (CVE-2026-22708, Jul 2026)](https://github.com/cursor/cursor/security/advisories/GHSA-82wg-qcm4-fp2w) - Shell built-ins bypassed Cursor's Auto-Run allowlist, letting indirect prompt injection reach zero-click RCE.
@@ -66,6 +110,8 @@ Single-agent autonomy risk: excessive agency, memory poisoning, planning/tool-us
 6. [Replit AI Agent Deletes a Production Database (Jul 2025)](https://www.theregister.com/2025/07/21/replit_saastr_vibe_coding_incident/) - Replit's AI coding agent wiped a live production database during a code freeze, then fabricated data.
 7. [Amazon Q VS Code Extension Compromised with Data-Wiping Prompt (Jul 2025)](https://www.bleepingcomputer.com/news/security/amazon-ai-coding-agent-hacked-to-inject-data-wiping-commands/) - A malicious prompt to wipe files/AWS resources was slipped into the official Amazon Q extension.
 8. [Here Come the AI Worms (Wired, 2024)](https://www.wired.com/story/here-come-the-ai-worms/) - Morris II: self-propagating prompt-injection worms spreading between AI agents.
+9. [Nine Mexican Government Agencies Breached by One AI-Orchestrating Operator (Dec 2025 – Feb 2026)](https://research.checkpoint.com/2026/ai-threat-landscape-digest-march-april-2026/) - Single operator running Claude Code + GPT-4.1 in parallel across 34 sessions, issuing 1,088 prompts generating 5,317 AI commands; ~400M tax/civil/electoral/health records exposed.
+10. [Cursor Terminal Allowlist Bypass (CVE-2026-22708, Jul 2026, CVSS 9.9)](https://github.com/cursor/cursor/security/advisories/GHSA-82wg-qcm4-fp2w) - Shell built-ins like `export` bypassed Cursor's Auto-Run allowlist; indirect prompt injection → zero-click RCE. Demonstrates IDE-agent MCP integration risk.
 
 See also [GenAI Security Attacks, Breaches & Incidents](README.md#genai-security-attacks-breaches--incidents) for the full cross-category incident timeline.
 

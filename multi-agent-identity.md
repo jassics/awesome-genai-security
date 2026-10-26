@@ -7,6 +7,7 @@ Trust between agents: delegated identity, agent-to-agent authN/authZ, and multi-
 ## Table of Contents
 - [Standards & Frameworks](#standards--frameworks)
 - [Papers & Articles](#papers--articles)
+- [Shadow AI & Unauthorized OAuth](#shadow-ai--unauthorized-oauth)
 - [Attacks & Incidents](#attacks--incidents)
 
 ## Standards & Frameworks
@@ -17,6 +18,36 @@ Trust between agents: delegated identity, agent-to-agent authN/authZ, and multi-
 ## Papers & Articles
 1. [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) and the [Agent2Agent (A2A) Protocol](https://a2a-protocol.org/) - The two emerging interop standards whose auth models define most current agent-identity attack surface.
 2. [Security Analysis: Potential AI Agent Hijacking via MCP and A2A Protocol Insights](https://medium.com/@foraisec/security-analysis-potential-ai-agent-hijacking-via-mcp-and-a2a-protocol-insights-cd1ec5e6045f) - Walks through hijack scenarios where one agent's delegated credentials/tools are abused by another.
+
+## Shadow AI & Unauthorized OAuth
+
+**Definition:** Employees installing unauthorized AI tools (ChatGPT, GitHub Copilot, Context.ai, etc.) with OAuth access to corporate cloud; attacker compromises the AI tool → pivots to corporate systems.
+
+### Real-World Example: Vercel April 2026 Breach
+
+1. Employee installed Context.ai (third-party AI coding tool) and granted it OAuth access to personal Google Cloud account with Vercel admin credentials.
+2. Attacker compromised Context.ai via infostealer infection or supply-chain attack.
+3. Attacker used stolen OAuth token to access employee's GCP account → discovered Vercel API keys → Vercel internal systems.
+4. **Result:** Environment variables and service credentials exposed; no model/dataset tampering detected, but blast radius was significant.
+
+### Defense Layers
+
+| Layer | Control | Example |
+|-------|---------|---------|
+| **Inventory** | Discover all OAuth grants to AI tools (GCP OAuth Audit Log, AWS CloudTrail OIDC events) | Quarterly audit of `accounts.google.com/u/0/security/review-security-settings` |
+| **Policy** | Prohibit OAuth grants to unapproved AI tools; enforce zero-trust for coding agents | Require pre-approval before installing Copilot, ChatGPT, etc. |
+| **Rate-limit** | Limit token refresh from AI tools to prevent token harvesting | Alert on >5 token-refresh calls/hour from same tool |
+| **Scope** | Minimize OAuth scopes granted to AI tools; deny `cloud-platform` scope | Approve only `gcloud.read` if possible; never grant write/delete |
+| **Monitoring** | Alert on unusual OAuth scopes, unexpected tool API calls | Alert on env-var read, secrets access, KMS operations from AI tool service accounts |
+| **Incident Response** | Immediate revocation of compromised OAuth grant; audit accessed resources | Revoke token, enumerate accessed resources, check for lateral movement |
+
+### Implications for Agentic Systems
+
+Multi-agent systems running in corporate environments must consider:
+- Can agents be given OAuth tokens to corporate systems? (Usually: no, requires explicit approval)
+- Are agent-to-agent communication channels using OAuth? (If yes: mutual TLS + identity proof required)
+- How is token rotation handled in agent chains? (Long-lived tokens = higher compromise risk)
+- What happens if an agent's service account is compromised? (Can it read other agents' tokens?)
 
 ## Attacks & Incidents
 1. [Nine Mexican Government Agencies Breached by One AI-Orchestrating Operator (Dec 2025 - Feb 2026)](https://research.checkpoint.com/2026/ai-threat-landscape-digest-march-april-2026/) - A single operator ran Claude Code and GPT-4.1 in parallel across 34 sessions, evidence of AI-orchestrated multi-session intrusion moving from state actors to ordinary criminals.
