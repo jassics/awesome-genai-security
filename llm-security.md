@@ -81,6 +81,7 @@ Core model- and prompt-level risk: jailbreaks, prompt injection, model theft, tr
 6. [Trylon Gateway](https://github.com/trylonai/gateway) - Self-hosted open-source AI firewall/proxy applying custom guardrails (prompt-injection defense, PII redaction).
 7. [Bifrost AI Gateway](https://github.com/maximhq/bifrost) - High-performance open-source AI gateway unifying 20+ LLM providers with governance and policy enforcement.
 8. [SUNGLASSES](https://github.com/sunglasses-dev/sunglasses) - Open source input firewall for AI agents that runs locally and scans text and files for prompt injection, credential leaks and data exfiltration with 1,554 patterns across 118 categories; it also runs as an MCP server.
+9. [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails) - Open benchmark that runs 18 decision models and Amazon Bedrock Guardrails on the same 9,975 labelled guardrail checks (prompt attacks, content, denied topics, profanity, PII, grounding) with one fixed 0.5 blocking threshold, and reports balanced accuracy and cost per 1,000 checks; [leaderboard](https://dm-as-guardrails.raxitlabs.com).
 
 ## Attacks, Breaches & Incidents
 1. [Policy Puppetry: Universal Jailbreak Bypassing All Major LLMs (Apr 2025)](https://www.hiddenlayer.com/research/novel-universal-bypass-for-all-major-llms) - HiddenLayer disclosed a single transferable prompt that bypasses safety guardrails across OpenAI, Google, Anthropic, Meta, DeepSeek, and others.
