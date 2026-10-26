@@ -18,6 +18,8 @@ Trust between agents: delegated identity, agent-to-agent authN/authZ, and multi-
 ## Papers & Articles
 1. [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) and the [Agent2Agent (A2A) Protocol](https://a2a-protocol.org/) - The two emerging interop standards whose auth models define most current agent-identity attack surface.
 2. [Security Analysis: Potential AI Agent Hijacking via MCP and A2A Protocol Insights](https://medium.com/@foraisec/security-analysis-potential-ai-agent-hijacking-via-mcp-and-a2a-protocol-insights-cd1ec5e6045f) - Walks through hijack scenarios where one agent's delegated credentials/tools are abused by another.
+3. [An Exploration of Attacks on AI Agent Systems (Qiao et al., 2026)](https://arxiv.org/abs/2610.12524) - Prompt injection across direct inputs and inter-agent communication; cross-agent infections in multi-agent setups.
+4. [Red-Teaming Multi-Agent LLM Systems via Communication Attacks (2025)](https://arxiv.org/abs/2502.14847) - Attack surface of agent-to-agent communication; token passing, instruction injection, credential exfiltration between agents.
 
 ## Shadow AI & Unauthorized OAuth
 

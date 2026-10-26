@@ -30,6 +30,8 @@ Core model- and prompt-level risk: jailbreaks, prompt injection, model theft, tr
 16. [OWASP CycloneDX AI/ML BOM (ML-BOM)](https://cyclonedx.org/capabilities/mlbom/) - Machine-readable BOM standard for ML models, datasets, and the ML supply chain (now ECMA-424).
 17. [VeriRouter: Towards Verifiable LLM Routing (Yao et al., 2026)](https://arxiv.org/abs/2610.17431) - ZK proofs and serving certificates to hold compromised LLM routers accountable for ineligible model selection and unfaithful relay.
 18. [Anytime-valid Detection of LLM Weight Exfiltration (Ortega-Fernandez et al., 2026)](https://arxiv.org/abs/2610.11843) - Statistical method for catching compromised inference servers leaking model weights through token choices.
+19. [Policy-Based Prompt Injection (2025)](https://arxiv.org/abs/2502.09999) - Framework for detecting and mitigating policy violations in LLM outputs through policy-guided evaluation.
+20. [Ciphered Skill Injection: Encrypted Instructions Evade Scanners (Chen et al., 2026)](https://arxiv.org/abs/2610.18262) - Obfuscated payloads hidden in agent skill files; agents decode and execute at runtime; relevant for understanding encoding-based evasion techniques.
 
 ## Attacks & Techniques
 1. [Prompt injection jailbreaking](https://ogre51.medium.com/security-of-llm-apps-prompt-injection-jailbreaking-fb9fc5c883a8)

@@ -65,6 +65,11 @@ The OWASP Agentic Top 10 for 2026 identifies 10 critical risk categories for aut
 16. [An Exploration of Attacks on AI Agent Systems (Qiao et al., 2026)](https://arxiv.org/abs/2610.12524) - Prompt injection across direct inputs and inter-agent communication, including cross-agent infections in multi-agent setups.
 17. [Persona Guardrail: A Production-Grade Defense Framework for Agentic Systems (Pal et al., 2026)](https://arxiv.org/abs/2610.03434) - Runtime defense enforcing explicit functional boundaries via allowlist/blocklist validation, plus the PAGE guardrail benchmark.
 18. [Agentic AI Security: Threats, Defenses, Evaluation, and Open Challenges (Chhabra et al., 2025)](https://arxiv.org/abs/2510.23883) - Comprehensive survey of attacks, defenses, and evaluation for LLM-based agentic systems.
+19. [MMA-SafetyBench: Multimodal Agent Safety Evaluation (Wang et al., 2026)](https://arxiv.org/abs/2610.19384) - 1,083 adversarial trajectories demonstrating visual semantic hijacking of GUI-grounded agents; up to 88% success rate. Expands threat model to multimodal attacks.
+20. [Ciphered Skill Injection: Encrypted Instructions Evade Scanners (Chen et al., 2026)](https://arxiv.org/abs/2610.18262) - Obfuscated payloads hidden in agent skill files; agents decode and execute at runtime; static scanners rarely detect.
+21. [Persona Guardrail: Production-Grade Defense Framework for Agentic Systems (Pal et al., 2026)](https://arxiv.org/abs/2610.03434) - Runtime defense enforcing explicit functional boundaries via allowlist/blocklist validation; includes PAGE guardrail benchmark.
+22. [An Exploration of Attacks on AI Agent Systems (Qiao et al., 2026)](https://arxiv.org/abs/2610.12524) - Prompt injection across direct inputs and inter-agent communication; cross-agent infections in multi-agent setups.
+23. [Red-Teaming Multi-Agent LLM Systems via Communication Attacks (2025)](https://arxiv.org/abs/2502.14847) - Attack surface of agent-to-agent communication; token passing, instruction injection, credential exfiltration.
 
 ## Tools
 1. [Agentic Radar (SPLX)](https://github.com/splx-ai/agentic-radar) - Security scanner that maps and analyzes agentic workflows.
@@ -75,6 +80,8 @@ The OWASP Agentic Top 10 for 2026 identifies 10 critical risk categories for aut
 6. [Protect AI's OSS Portfolio](https://github.com/protectai) - Collection of open-source AI/ML security tools (LLM Guard, ModelScan, Rebuff, and more).
 7. [Redcells - Automated Adversarial Testing for LLMs](https://redcells.net) - Public-beta platform for automated adversarial testing of LLMs and agents you own or control. OpenAI-compatible target models, iterative attack→refine layers, dashboard + API. ([Repo](https://github.com/awdemos/redcell))
 8. [AI-Infra-Guard (Tencent Zhuque Lab)](https://github.com/Tencent/AI-Infra-Guard) - Multi-layer AI red-teaming platform: Agent Scan for agent-workflow misconfigurations, MCP/Agent-Skill scanning across 14 risk categories, AI-infra CVE fingerprinting for 146+ components, and multi-turn LLM jailbreak evaluation.
+9. [Persona Guardrail (Pal et al., 2026)](https://arxiv.org/abs/2610.03434) - Production-grade runtime guardrail enforcing explicit functional boundaries; blocks actions outside agent's intended scope; PAGE benchmark for evaluation.
+10. [Agentic AI Security: Threats, Defenses, Evaluation, and Open Challenges Survey (Chhabra et al., 2025)](https://arxiv.org/abs/2510.23883) - Comprehensive survey paper linking attacks to defenses and evaluation methods for LLM-based agentic systems.
 
 ## Attacks, Breaches & Incidents
 
