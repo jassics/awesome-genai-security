@@ -184,6 +184,7 @@ The GenAI security landscape has shifted from research/novelty (2023–2024) to 
 6. [India AI Governance Guidelines (IndiaAI / MeitY)](https://www.indiaai.gov.in/) - India's national AI strategy and governance guidance.
 7. [Singapore Model AI Governance Framework](https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework)
 8. [UK - International AI Safety Report](https://www.gov.uk/government/publications/international-ai-safety-report-2025) - Frontier AI risk assessment led by Yoshua Bengio.
+9. [Where Do My Prompts Go?](https://rebuildlab.github.io/where-do-my-prompts-go/) - Sourced tracker of what 25 AI tools and APIs do with prompts (training, retention, zero data retention, regions, HIPAA BAA), each value quoted from the vendor's own policy page; useful for AI vendor reviews.
 
 ## AI Incident Response & Governance
 
@@ -220,6 +221,7 @@ Thanks to everyone who helps keep this list current. Your name could be next —
 *   [roli-lpci](https://github.com/roli-lpci) - hermes-jailbench
 *   [azrollin](https://github.com/azrollin) - SUNGLASSES
 *   [themsquared](https://github.com/themsquared) - MCP security articles
+*   [taiyofujiwara](https://github.com/taiyofujiwara) - Where Do My Prompts Go?
 
 ---
 
