@@ -127,3 +127,4 @@ See also [GenAI Security Attacks, Breaches & Incidents](README.md#genai-security
 2. [Microsoft AI Red Teaming Playground Labs](https://github.com/microsoft/AI-Red-Teaming-Playground-Labs) - Hands-on red-teaming challenges (prompt injection, indirect injection, guardrail bypass) with Docker/Kubernetes deployment.
 3. [PromptTrace](https://prompttrace.airedlab.com) - Free hands-on labs and a progressive gauntlet for tool/function-call abuse against real LLM agents.
 4. [CSA Agentic AI Red Teaming Guide](https://cloudsecurityalliance.org/artifacts/agentic-ai-red-teaming-guide) - Red teaming approach tailored to autonomous agents.
+5. [Memory Poisoning Lab](https://github.com/RishabhPande/memory-poison-lab) - MIT local teaching range for six synthetic memory-poisoning cases, origin-aware recall and conflict-scoped repair with a scripted agent.
