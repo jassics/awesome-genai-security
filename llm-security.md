@@ -59,6 +59,7 @@ Core model- and prompt-level risk: jailbreaks, prompt injection, model theft, tr
 7. [ModelAudit](https://github.com/promptfoo/modelaudit) - Static scanner detecting malicious code/backdoors across 40+ ML model file formats.
 8. [AIsbom](https://aisbom.io/) - CLI that scans model files for malware and generates CycloneDX/SPDX AI SBOMs.
 9. [Giskard](https://github.com/Giskard-AI/giskard) - Testing and scanning framework for ML/LLM systems.
+10. [llm-redteam-banking-checklist](https://github.com/ErcinDedeoglu/llm-redteam-banking-checklist) - Go-live gate for LLM red-team findings in banking: severity scoring, five go/no-go gates, and a pytest/GitHub Actions check that fails the release when a gate is red.
 
 ### Offensive / Red Teaming
 1. [AI/ML Exploits](https://github.com/protectai/ai-exploits)
