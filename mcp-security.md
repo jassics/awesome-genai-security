@@ -36,6 +36,7 @@ Model Context Protocol servers/clients: tool poisoning, auth, transport, and cre
 4. [ToolHive (StacklokLabs)](https://github.com/StacklokLabs/toolhive) - Runs MCP servers in locked-down containers with secrets management and network isolation.
 5. [mcp-context-protector (Trail of Bits)](https://github.com/trailofbits/mcp-context-protector) - Security wrapper that validates and sandboxes MCP server responses before they reach the LLM.
 6. [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first security harness that intercepts tool calls before files change or network is contacted; scans MCP servers, skills, and plugins for supply-chain threats.
+7. [Batesian](https://github.com/calbebop/batesian) - CLI scanner for deployed MCP and A2A endpoints; tests authorization, session isolation, OAuth audience and scope, and callback security.
 
 ## Attacks, Breaches & Incidents
 
