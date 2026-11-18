@@ -59,6 +59,7 @@ Core model- and prompt-level risk: jailbreaks, prompt injection, model theft, tr
 7. [ModelAudit](https://github.com/promptfoo/modelaudit) - Static scanner detecting malicious code/backdoors across 40+ ML model file formats.
 8. [AIsbom](https://aisbom.io/) - CLI that scans model files for malware and generates CycloneDX/SPDX AI SBOMs.
 9. [Giskard](https://github.com/Giskard-AI/giskard) - Testing and scanning framework for ML/LLM systems.
+10. [Necio](https://promptsecops.com/) - Hosted scanner that sends scheduled, graded test conversations to deployed chatbots, agents and model APIs to detect behavioral drift and OWASP LLM Top 10 vulnerabilities.
 
 ### Offensive / Red Teaming
 1. [AI/ML Exploits](https://github.com/protectai/ai-exploits)
